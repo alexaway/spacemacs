@@ -2,6 +2,7 @@
 
 cd ~/.emacs.d/private/alexaway/
 git pull alexaway
+echo "$(git ls-files -m)"
 if [ "$(git ls-files -m)" = "" ]
 then
     echo "do nothing"
