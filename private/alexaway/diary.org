@@ -264,6 +264,7 @@
 ****** , ：分割时段
 ****** - ：一段时间范围
 ****** /n：每隔n单位时间
+****** this is only for test
 ***** [[http://linux.vbird.org/linux_basic/0430cron.php#crontab][for details]] 
 
      :LOGBOOK:
@@ -272,3 +273,4 @@
      :END:
    [2016-11-28 Mon 18:36]
 
+   
