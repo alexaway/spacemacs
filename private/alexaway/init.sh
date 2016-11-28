@@ -22,3 +22,6 @@ cp ~/.emacs.d/.spacemacs ~/.spacemacs
 
 cd ~/.emacs.d
 git remote add alexaway git@github.com:alexaway/spacemacs.git
+
+#尼玛crontab后面的那个-什么意思啊
+(crontab -l 2>/dev/null; echo "0 * * * * /home/alexaway/.emacs.d/private/alexaway/syn.sh") | crontab -

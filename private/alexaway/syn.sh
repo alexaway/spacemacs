@@ -1,9 +1,11 @@
 #!/bin/sh
 
 cd ~/.emacs.d/private/alexaway/
-if [ -n $(git ls-files -m) ]
+git pull alexaway
+if [ "$(git ls-files -m)" = "" ]
 then
-    git pull alexaway
+    echo "do nothing"
+else    
     git add .
     git commit -m "$(date)"
     git push -u alexaway
