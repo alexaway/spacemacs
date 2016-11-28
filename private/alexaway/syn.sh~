@@ -6,5 +6,5 @@ then
     git pull alexaway
     git add .
     git commit -m "$(date)"
-    git push -u alexaway
+    git push alexaway
 fi
