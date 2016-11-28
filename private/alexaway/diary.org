@@ -244,3 +244,31 @@
      CLOCK: [2016-11-28 Mon 14:42]--[2016-11-28 Mon 14:45] =>  0:03
      :END:
    [2016-11-28 Mon 12:06]
+**** linux：at 
+***** at 处理那些只执行一次就结束的程序
+**** Linux: crontab
+***** crontab 循环性工作
+***** 限制使用该服务
+****** /etc/cron.allow
+****** /etc/cron.deny
+***** 当使用crontab 简历了工作安排之后， 工作记录会被记录到/var/spool/cron 里，而且以账号作为判别
+****** -e：编辑crontab 的任务
+****** -l：查阅
+****** -r：移除所有crontab 任务，如若想移除一个任务，用-e来编辑
+***** 具体参数  * * * * * command
+      | meaning | minute | hour | date | month | week | command   |
+      |---------+--------+------+------+-------+------+-----------|
+      | range   |   0-59 | 0-23 | 1-31 |  1-12 |  0-7 | that's it | 
+***** 特殊字符  
+****** * ：任何时刻都接受
+****** , ：分割时段
+****** - ：一段时间范围
+****** /n：每隔n单位时间
+***** [[http://linux.vbird.org/linux_basic/0430cron.php#crontab][for details]] 
+
+     :LOGBOOK:
+     CLOCK: [2016-11-28 Mon 19:11]--[2016-11-28 Mon 19:48] =>  0:37
+     CLOCK: [2016-11-28 Mon 18:36]--[2016-11-28 Mon 19:09] =>  0:33
+     :END:
+   [2016-11-28 Mon 18:36]
+
