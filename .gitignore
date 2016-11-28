@@ -45,11 +45,6 @@ python-*-docs-html
 /srecode-map.el
 /recentf
 
-# Private directory
-#private/
-#!private/README.md
-#!private/snippets/README.md
-#!private/local/README.md
 /games/
 
 .org-id-locations
