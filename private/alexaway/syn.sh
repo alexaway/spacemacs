@@ -1,12 +1,12 @@
 #!/bin/sh
 
 cd ~/.emacs.d/private/alexaway/
-git pull alexaway
+git pull alexaway/master
 if [ "$(git ls-files -m)" = "" ]
 then
     echo "do nothing"
 else    
     git add .
     git commit -m "$(date)"
-    git push -u alexaway
+    git push -u alexaway/master
 fi
