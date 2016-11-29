@@ -3,6 +3,13 @@
 cd ~/.emacs.d/private/alexaway/
 ssh-add 1>/dev/null 2>&1
 
+rm -rf *.gpg
+for data in $(ls | grep '[^README]'.org$)
+do
+    rm -rf "$data".bak
+    <passwd | gpg -c --passphrase 0 "$data"
+    mv "$data" "$data".bak
+done
 
 
 git pull alexaway
@@ -14,3 +21,9 @@ else
     git commit -m "$(date)"
     git push -u alexaway
 fi
+
+for data in $(ls | grep '[^README]'.gpg$)
+do
+    <passwd | gpg --passphrase 0 "$data"
+done
+
