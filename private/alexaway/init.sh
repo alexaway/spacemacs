@@ -32,3 +32,6 @@ git submodule update --init --recursive
 ./build.py --all
 
 cp ~/.emacs.d/private/alexaway/cc_args.py ~/.ycmd/
+
+cd ~
+echo "alias sye=\"source ~/.emacs.d/private/alexaway/syn.sh\""
