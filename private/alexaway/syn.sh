@@ -7,7 +7,7 @@ rm -rf *.gpg
 for data in $(ls | grep '[^README]'.org$)
 do
     rm -rf "$data".bak
-    <passwd | gpg -c --passphrase 0 "$data"
+    <passwd | gpg -c --passphrase-fd 0 "$data"
     mv "$data" "$data".bak
 done
 
@@ -24,6 +24,6 @@ fi
 
 for data in $(ls | grep '[^README]'.gpg$)
 do
-    <passwd | gpg --passphrase 0 "$data"
+    <passwd | gpg --passphrase-fd 0 "$data"
 done
 
