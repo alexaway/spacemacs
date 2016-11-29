@@ -15,8 +15,8 @@ if [ -d .emacs.d ]
 then
    echo "the .emacs.d directory exists!"
    mv .emacs.d .emacs.d.bak
-   git clone git@github.com:alexaway/spacemacs.git .emacs.d
 fi
+git clone git@github.com:alexaway/spacemacs.git .emacs.d
 
 cp ~/.emacs.d/.spacemacs ~/.spacemacs
 
@@ -25,8 +25,6 @@ git remote add alexaway git@github.com:alexaway/spacemacs.git
 
 #尼玛crontab后面的那个-什么意思啊
 (crontab -l 2>/dev/null; echo "0 * * * * /home/alexaway/.emacs.d/private/alexaway/syn.sh") | crontab -
-
-apt-get install build-essential cmake python-dev
 
 git clone https://github.com/Valloric/ycmd.git ~/.ycmd
 cd ~/.ycmd
