@@ -25,3 +25,12 @@ git remote add alexaway git@github.com:alexaway/spacemacs.git
 
 #尼玛crontab后面的那个-什么意思啊
 (crontab -l 2>/dev/null; echo "0 * * * * /home/alexaway/.emacs.d/private/alexaway/syn.sh") | crontab -
+
+apt-get install build-essential cmake python-dev
+
+git clone https://github.com/Valloric/ycmd.git ~/.ycmd
+cd ~/.ycmd
+git submodule update --init --recursive
+./build.py --all
+
+cp ~/.emacs.d/private/alexaway/cc_args.py ~/.ycmd/

@@ -18,31 +18,32 @@ values."
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
    '(
-     markdown
+     html
+     html
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
+     alexaway
      auto-completion
      ;; better-defaults
      emacs-lisp
-     ;;(c-c++ :variables c-c++-enable-clang-support t)
-     c-c++
-     shell-scripts
-     shell
-     ycmd
+     (c-c++ :variables c-c++-enable-clang-support t)
+     ;c-c++
+     ;ycmd
      gtags
-     alexaway
      ;; git
      ;; markdown
-     ;org
+     ;; org
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
      spell-checking
      syntax-checking
      ;; version-control
+     latex
+     (latex :variables latex-build-command "LaTeX")
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -81,7 +82,7 @@ values."
    ;; variable is `emacs' then the `holy-mode' is enabled at startup. `hybrid'
    ;; uses emacs key bindings for vim's insert mode, but otherwise leaves evil
    ;; unchanged. (default 'vim)
-   dotspacemacs-editing-style 'emacs
+   dotspacemacs-editing-style 'vim
    ;; If non nil output loading progress in `*Messages*' buffer. (default nil)
    dotspacemacs-verbose-loading nil
    ;; Specify the startup banner. Default value is `official', it displays
@@ -115,7 +116,7 @@ values."
    ;; Default font. `powerline-scale' allows to quickly tweak the mode-line
    ;; size to make separators look not too crappy.
    dotspacemacs-default-font '("Source Code Pro"
-                               :size 13
+                               :size 15
                                :weight normal
                                :width normal
                                :powerline-scale 1.1)
@@ -250,9 +251,8 @@ before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
 
   (set-variable 'ycmd-server-command '("python" "/home/alexaway/.ycmd/ycmd/"))
-  (setq org-agenda-files (list "~/Desktop/learn.org"))
-
-  )
+  ;(add-hook 'c++-mode-hook (lambda () (setq flycheck-gcc-language-standard "c++11")))
+)
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
@@ -260,11 +260,10 @@ This function is called at the very end of Spacemacs initialization after
 layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
-you should place your code "
+you should place your code here."
+  (global-linum-mode)  ;;show the line number
+  (add-hook 'doc-view-mode-hook 'auto-revert-mode)
+)
 
-  (global-linum-mode)
-  (global-set-key(kbd "<f12>") 'org-agenda)
-  )
-
-;; Do Not write anything past this comment. This is where Emacs will
+;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
