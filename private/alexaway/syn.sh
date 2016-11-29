@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cd ~/.emacs.d/private/alexaway/
+ssh-add
 git pull alexaway
 if [ "$(git ls-files -m)" = "" ]
 then
