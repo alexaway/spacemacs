@@ -34,4 +34,4 @@ git submodule update --init --recursive
 cp ~/.emacs.d/private/alexaway/cc_args.py ~/.ycmd/
 
 cd ~
-echo "alias sye=\"source ~/.emacs.d/private/alexaway/syn.sh\""
+echo "alias sye=\"source ~/.emacs.d/private/alexaway/syn.sh\""<<.zshrc
