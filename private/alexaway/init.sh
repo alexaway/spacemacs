@@ -35,3 +35,5 @@ cp ~/.emacs.d/private/alexaway/cc_args.py ~/.ycmd/
 
 cd ~
 echo "alias sye=\"source ~/.emacs.d/private/alexaway/syn.sh\""<<.zshrc
+
+ssssss
