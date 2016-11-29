@@ -10,19 +10,17 @@
  - [[#key-bindings][Key bindings]]
 
 * Description
-This layer does wonderful things:
-  - thing01
+这个layer主要是定制了我的org-mode,配置参考了[[http://doc.norang.ca/org-mode.html][link]] 大神的配置，但是还有许多要完善和学习。
 
 * Install
-To use this configuration layer, add it to your =~/.spacemacs=. You will need to
-add =alexaway= to the existing =dotspacemacs-configuration-layers= list in this
-file.
+运行init.sh 可以自动安装，需要注意的是因为我push github的方式是ssh，所以要提前将ssh的私钥安装到计算机中，当然了我的私钥只有我知道 
 
 * Key bindings
 
-| Key Binding | Description    |
-|-------------+----------------|
-| ~SPC x x x~ | Does thing01   |
+| Key Binding | Description     |
+|-------------+-----------------|
+| sye         | synchronization |
+
 # Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
 # Examples:
 # [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
