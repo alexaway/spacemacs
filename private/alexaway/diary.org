@@ -336,7 +336,12 @@
 ****** Camera Tracking 
        In the tracking phase, a rigid 6DOF transform is computed to closely align the current oriented points with the previous frame, using a GPU implementation of
        the Iterative Closest Point (ICP) algorithm. Relative transforms are incrementally applied to a single transform that defines the global pose of the Kinect.
-****** 
+****** Volumetric Integration 
+        Instead of fusing point clouds or creating a mesh, we use a volumetric surface representation. Given the global pose of the camera, oriented points are converted into global coordinates,
+        and a single 3D voxel grid is updated. Each voxel stores a running average of its distance to the assumed position of a physical surface.
+****** Raycasting
+        Finally, the volume is raycast to extract views of the implicit surface, for rendering to the user. 
+
 
 
 
