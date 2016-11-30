@@ -1,0 +1,47 @@
+* TODO RECONSTRUCTION-1
+  SCHEDULED: <2016-11-26 Sat 08:40 ++1d>
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-11-25 Fri 19:08]
+  :END:
+  - State "CANCELLED"  from "TODO"       [2016-11-25 Fri 19:08]
+  - State "DONE"       from "TODO"       [2016-11-24 Thu 19:38]
+* TODO Leet Code
+  SCHEDULED: <2016-11-26 Sat 11:00 ++1d>
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-11-25 Fri 19:08]
+  :END:
+  - State "CANCELLED"  from "TODO"       [2016-11-25 Fri 19:08]
+  - State "CANCELLED"  from "TODO"       [2016-11-24 Thu 19:39]
+* TODO shanbay words
+  SCHEDULED: <2016-11-26 Sat 12:40 ++1d>
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-11-25 Fri 19:08]
+  :END:
+  - State "CANCELLED"  from "TODO"       [2016-11-25 Fri 19:08]
+  - State "CANCELLED"  from "TODO"       [2016-11-24 Thu 19:39] \\
+    Sorry
+* TODO RECONSTRUCTION-2
+  SCHEDULED: <2016-11-27 Sun 14:20 ++1d>
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-11-26 Sat 09:48]
+  :END:
+  - State "DONE"       from "TODO"       [2016-11-26 Sat 09:48]
+  - State "DONE"       from "TODO"       [2016-11-26 Sat 09:48]
+  - State "CANCELLED"  from "TODO"       [2016-11-24 Thu 19:40]
+* TODO Leet Code
+  SCHEDULED: <2016-11-26 Sat 18:50 ++1d>
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-11-26 Sat 09:48]
+  :END:
+  - State "DONE"       from "TODO"       [2016-11-26 Sat 09:48]
+  - State "CANCELLED"  from "TODO"       [2016-11-24 Thu 19:40]
+* TODO Emacs Learning
+  SCHEDULED: <2016-11-26 Sat 21:00 ++1d>
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-11-26 Sat 09:49]
+  :END:
+  - State "DONE"       from "TODO"       [2016-11-26 Sat 09:49]
+  - State "DONE"       from "TODO"       [2016-11-24 Thu 23:08]
+  :LOGBOOK:
+  CLOCK: [2016-11-24 Thu 23:06]--[2016-11-24 Thu 23:08] =>  0:02
+  :END:
