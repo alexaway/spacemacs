@@ -278,22 +278,13 @@
      :END:
      [2016-11-29 Tue 20:20]
 *** 2016-11-30 Wednesday
-**** Test for encryption                                              :crypt:
------BEGIN PGP MESSAGE-----
-Version: GnuPG v1
-
-jA0EBwMCOfk6/5dZQ2xg0msBWJuWlm4SZlO7OLWXK0yquYCrtsQB6gtAW83mVvUt
-BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
-3xXuQOHu8bubCz2amCNDjg4UrWWAVBuixxZbGg==
-=OB7r
------END PGP MESSAGE-----
 **** 要开始学习了哦 
-   [2016-11-30 Wed 10:04]
+     [2016-11-30 Wed 10:04]
 **** *这是加粗* /look this/ _下划线_ =这是什么=   
      :LOGBOOK:
      CLOCK: [2016-11-30 Wed 10:08]--[2016-11-30 Wed 10:11] =>  0:03
      :END:
-   [2016-11-30 Wed 10:08]
+     [2016-11-30 Wed 10:08]
 **** 一些数学概念 
 ***** *梯度*  
       标量场中某一点的梯度指向在这点标量场增长最快的方向（当然要比较的话必须固定方向的长度），梯度的绝对值是长度为1的方向中函数最大的增加率
@@ -319,13 +310,13 @@ BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
 ***** *流形* 
       流形，是局部具有欧几里得空间性质的空间，是欧几里得空间中的曲线、曲面等概念的推广.流形要求局部“看起来像”简单的空间，这不是一个简单的要求。例如，在球上吊一根线，这个整体就不是一个流形。包含了线和球连接的那
       一点的附近区域一定不是简单的:既不是线也不是面，无论这个区域有多小。 
-     :LOGBOOK:
-     CLOCK: [2016-11-30 Wed 15:50]--[2016-11-30 Wed 16:26] =>  0:36
-     CLOCK: [2016-11-30 Wed 15:48]--[2016-11-30 Wed 15:49] =>  0:01
-     CLOCK: [2016-11-30 Wed 11:00]--[2016-11-30 Wed 11:13] =>  0:13
-     CLOCK: [2016-11-30 Wed 10:27]--[2016-11-30 Wed 10:56] =>  0:29
-     :END:
-   [2016-11-30 Wed 10:27]
+      :LOGBOOK:
+      CLOCK: [2016-11-30 Wed 15:50]--[2016-11-30 Wed 16:26] =>  0:36
+      CLOCK: [2016-11-30 Wed 15:48]--[2016-11-30 Wed 15:49] =>  0:01
+      CLOCK: [2016-11-30 Wed 11:00]--[2016-11-30 Wed 11:13] =>  0:13
+      CLOCK: [2016-11-30 Wed 10:27]--[2016-11-30 Wed 10:56] =>  0:29
+      :END:
+      [2016-11-30 Wed 10:27]
 **** KinectFusion: Real-time 3D Reconstruction and Interaction Using a Moving Depth Camera 
 ***** Features 
 ****** Low-cost Handheld Scanning
@@ -337,9 +328,14 @@ BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
        现实增强，可以与现实场景进行交互
 ****** Reaching into the Scene
        可以区分前景（用户）与后景，在这个基础上，人还可以和后景进行交互
+***** Overview 
+      [[file:diary.org_imgs/20161130_210420_6054z8b.png]]
 ***** Implementation 
 ****** Depth Map Conversion 
        The live depth map is converted from image coordinates into 3D points (referred to as vertices) and normals in the coordinate space of the camera.
+****** Camera Tracking 
+       In the tracking phase, a rigid 6DOF transform is computed to closely align the current oriented points with the previous frame, using a GPU implementation of
+       the Iterative Closest Point (ICP) algorithm. Relative transforms are incrementally applied to a single transform that defines the global pose of the Kinect.
 ****** 
 
 
@@ -348,8 +344,9 @@ BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
 
 
 
-     :LOGBOOK:
-     CLOCK: [2016-11-30 Wed 19:40]--[2016-11-30 Wed 20:58] =>  1:18
-     CLOCK: [2016-11-30 Wed 17:20]--[2016-11-30 Wed 17:33] =>  0:13
-     :END:
-   [2016-11-30 Wed 17:20]
+
+       :LOGBOOK:
+       CLOCK: [2016-11-30 Wed 19:40]--[2016-11-30 Wed 20:58] =>  1:18
+       CLOCK: [2016-11-30 Wed 17:20]--[2016-11-30 Wed 17:33] =>  0:13
+       :END:
+       [2016-11-30 Wed 17:20]
