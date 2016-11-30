@@ -342,14 +342,6 @@
 ****** Raycasting
         Finally, the volume is raycast to extract views of the implicit surface, for rendering to the user. 
 
-
-
-
-
-
-
-
-
        :LOGBOOK:
        CLOCK: [2016-11-30 Wed 19:40]--[2016-11-30 Wed 20:58] =>  1:18
        CLOCK: [2016-11-30 Wed 17:20]--[2016-11-30 Wed 17:33] =>  0:13
