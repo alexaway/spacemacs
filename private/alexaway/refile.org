@@ -10,7 +10,7 @@
   CLOCK: [2016-11-24 Thu 20:20]--[2016-11-24 Thu 20:21] =>  0:01
   :END:
 [2016-11-24 Thu 20:20]
-* TODO erhui's annual vacation 
+* DONE erhui's annual vacation
   DEADLINE: <2016-11-30 Wed 12:00>
   :LOGBOOK:
   CLOCK: [2016-11-25 Fri 19:22]--[2016-11-25 Fri 19:23] =>  0:01
