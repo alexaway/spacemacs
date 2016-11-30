@@ -318,9 +318,7 @@ BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
 ****** _三维空间中的拉普拉斯算子用来提取骨架？_
 ***** *流形* 
       流形，是局部具有欧几里得空间性质的空间，是欧几里得空间中的曲线、曲面等概念的推广.流形要求局部“看起来像”简单的空间，这不是一个简单的要求。例如，在球上吊一根线，这个整体就不是一个流形。包含了线和球连接的那
-      一点的附近区域一定不是简单的:既不是线也不是面，无论这个区域有多小。
-****** 
-
+      一点的附近区域一定不是简单的:既不是线也不是面，无论这个区域有多小。 
      :LOGBOOK:
      CLOCK: [2016-11-30 Wed 15:50]--[2016-11-30 Wed 16:26] =>  0:36
      CLOCK: [2016-11-30 Wed 15:48]--[2016-11-30 Wed 15:49] =>  0:01
@@ -328,3 +326,9 @@ BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
      CLOCK: [2016-11-30 Wed 10:27]--[2016-11-30 Wed 10:56] =>  0:29
      :END:
    [2016-11-30 Wed 10:27]
+**** KinectFusion: Real-time 3D Reconstruction and Interaction Using a Moving Depth Camera 
+
+     :LOGBOOK:
+     CLOCK: [2016-11-30 Wed 17:20]--[2016-11-30 Wed 17:33] =>  0:13
+     :END:
+   [2016-11-30 Wed 17:20]
