@@ -157,7 +157,7 @@
      :LOGBOOK:
      CLOCK: [2016-11-27 Sun 00:32]--[2016-11-27 Sun 00:33] =>  0:01
      :END:
-   [2016-11-27 Sun 00:32]
+     [2016-11-27 Sun 00:32]
 **** Git on remote servers
      #+BEGIN_SRC shell
        git remote                                                          # manage set of tracked repositories
@@ -167,10 +167,10 @@
        git clone https://github.com/alexaway/visual.git       
      #+END_SRC
  
-      :LOGBOOK:
-      CLOCK: [2016-11-27 Sun 16:39]--[2016-11-27 Sun 17:48] =>  1:09
-      :END:
-    [2016-11-27 Sun 16:39]
+     :LOGBOOK:
+     CLOCK: [2016-11-27 Sun 16:39]--[2016-11-27 Sun 17:48] =>  1:09
+     :END:
+     [2016-11-27 Sun 16:39]
 **** Git & Github 
      #+BEGIN_SRC shell
        git push alexaway non_tracking                                # 注意这个命令将non_tracking push到alexaway这个远程git上，但是之后fetch的时候不会建立引用
@@ -186,10 +186,10 @@
 ***** fetch before you push
 ***** fetch often
 ***** 省去登录过程：使用SSH方式登录，设置公钥私钥
-     :LOGBOOK:
-     CLOCK: [2016-11-27 Sun 18:54]--[2016-11-27 Sun 21:01] =>  2:07
-     :END:
-   [2016-11-27 Sun 18:54]
+      :LOGBOOK:
+      CLOCK: [2016-11-27 Sun 18:54]--[2016-11-27 Sun 21:01] =>  2:07
+      :END:
+      [2016-11-27 Sun 18:54]
 **** SSH keys 
      #+BEGIN_SRC shell
        ssh-keygen -t rsa -b 8112 -C "The birthday of my love"                  
@@ -199,7 +199,7 @@
      :LOGBOOK:
      CLOCK: [2016-11-27 Sun 21:09]--[2016-11-27 Sun 21:19] =>  0:10
      :END:
-   [2016-11-27 Sun 21:09]
+     [2016-11-27 Sun 21:09]
 *** 2016-11-28 Monday
 **** >/dev/null 2>&1   
 ***** > is for redirect
@@ -209,17 +209,17 @@
 ***** 1 is the file descriptor for standard Out
 ***** Therefore >/dev/null 2>&1 is redirect output of your program to /dev/null, include both the standard Error and standard Out
 
-     :LOGBOOK:
-     CLOCK: [2016-11-28 Mon 10:35]--[2016-11-28 Mon 10:45] =>  0:10
-     :END:
-   [2016-11-28 Mon 10:35]
+      :LOGBOOK:
+      CLOCK: [2016-11-28 Mon 10:35]--[2016-11-28 Mon 10:45] =>  0:10
+      :END:
+      [2016-11-28 Mon 10:35]
 **** linux 文件描述符 
 ***** linux 启动后，会默认打开三个文件描述符，分别是：标准输入standard input 0，正确输出standard output 1,错误输出error output 2
      
-     :LOGBOOK:
-     CLOCK: [2016-11-28 Mon 11:05]--[2016-11-28 Mon 11:10] =>  0:05
-     :END:
-   [2016-11-28 Mon 11:05]
+      :LOGBOOK:
+      CLOCK: [2016-11-28 Mon 11:05]--[2016-11-28 Mon 11:10] =>  0:05
+      :END:
+      [2016-11-28 Mon 11:05]
 **** linux 数据重定向 
 ***** 1> 标准输出，默认选项,1可以省略
 ***** 2> 错误输出
@@ -232,18 +232,18 @@
      :LOGBOOK:
      CLOCK: [2016-11-28 Mon 11:37]--[2016-11-28 Mon 12:06] =>  0:29
      :END:
-   [2016-11-28 Mon 11:37]
+     [2016-11-28 Mon 11:37]
 **** linux command  
 ***** 管道命令操作符："|" 它仅能处理经由前面一个指令传出的正确输出信息，传递给下一个命令，作为标准输出
 ***** xargs 将参数列表转换成小块分段传递给其他命令，以避免参数列表过长的问题。-0指的是把特殊字符作为普通字符看待
 ***** -n $(var) ：如果不为空返回真 -z $(var) ：如果为空返回真
 
-     :LOGBOOK:
-     CLOCK: [2016-11-28 Mon 16:33]--[2016-11-28 Mon 16:34] =>  0:01
-     CLOCK: [2016-11-28 Mon 16:25]--[2016-11-28 Mon 16:26] =>  0:01
-     CLOCK: [2016-11-28 Mon 14:42]--[2016-11-28 Mon 14:45] =>  0:03
-     :END:
-   [2016-11-28 Mon 12:06]
+      :LOGBOOK:
+      CLOCK: [2016-11-28 Mon 16:33]--[2016-11-28 Mon 16:34] =>  0:01
+      CLOCK: [2016-11-28 Mon 16:25]--[2016-11-28 Mon 16:26] =>  0:01
+      CLOCK: [2016-11-28 Mon 14:42]--[2016-11-28 Mon 14:45] =>  0:03
+      :END:
+      [2016-11-28 Mon 12:06]
 **** linux：at 
 ***** at 处理那些只执行一次就结束的程序
 **** Linux: crontab
@@ -267,15 +267,24 @@
 ****** 这是一个测试
 ***** [[http://linux.vbird.org/linux_basic/0430cron.php#crontab][for details]] 
 
-     :LOGBOOK:
-     CLOCK: [2016-11-28 Mon 19:11]--[2016-11-28 Mon 19:48] =>  0:37
-     CLOCK: [2016-11-28 Mon 18:36]--[2016-11-28 Mon 19:09] =>  0:33
-     :END:
-   [2016-11-28 Mon 18:36]
+      :LOGBOOK:
+      CLOCK: [2016-11-28 Mon 19:11]--[2016-11-28 Mon 19:48] =>  0:37
+      CLOCK: [2016-11-28 Mon 18:36]--[2016-11-28 Mon 19:09] =>  0:33
+      :END:
+      [2016-11-28 Mon 18:36]
 *** 2016-11-29 Tuesday
 ****  Finally,I am back
      :LOGBOOK:
-     CLOCK: [2016-11-29 Tue 20:20]
      :END:
-   [2016-11-29 Tue 20:20]
+     [2016-11-29 Tue 20:20]
+*** 2016-11-30 Wednesday
+**** Test for encryption                                              :crypt:
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+jA0EBwMCOfk6/5dZQ2xg0msBWJuWlm4SZlO7OLWXK0yquYCrtsQB6gtAW83mVvUt
+BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
+3xXuQOHu8bubCz2amCNDjg4UrWWAVBuixxZbGg==
+=OB7r
+-----END PGP MESSAGE-----
 
