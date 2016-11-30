@@ -153,7 +153,7 @@
       :END:
       [2016-11-26 Sat 14:57]
 *** 2016-11-27 Sunday
-**** 如果离开小惠能让她变得更好，我会怎么做？她是个傻孩子啊。 
+**** 如果离开小惠能让她变得更好，我会怎么做？她是个傻孩子啊。       
      :LOGBOOK:
      CLOCK: [2016-11-27 Sun 00:32]--[2016-11-27 Sun 00:33] =>  0:01
      :END:
@@ -327,13 +327,29 @@ BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
      :END:
    [2016-11-30 Wed 10:27]
 **** KinectFusion: Real-time 3D Reconstruction and Interaction Using a Moving Depth Camera 
-***** 
+***** Features 
+****** Low-cost Handheld Scanning
+       实时
+****** Object Segmentation through Direct Interaction
+       比如重建桌子上的一个物体，可以先重建整个场景，然后把该物体拿走，通过两个场景的差别进行分割
+****** Geometry-Aware Augmented Reality
+****** Taking Physics Beyond the ‘Surface’
+       现实增强，可以与现实场景进行交互
+****** Reaching into the Scene
+       可以区分前景（用户）与后景，在这个基础上，人还可以和后景进行交互
+***** Implementation 
+****** Depth Map Conversion 
+       The live depth map is converted from image coordinates into 3D points (referred to as vertices) and normals in the coordinate space of the camera.
+****** 
+
+
+
 
 
 
 
      :LOGBOOK:
-     CLOCK: [2016-11-30 Wed 19:40]
+     CLOCK: [2016-11-30 Wed 19:40]--[2016-11-30 Wed 20:58] =>  1:18
      CLOCK: [2016-11-30 Wed 17:20]--[2016-11-30 Wed 17:33] =>  0:13
      :END:
    [2016-11-30 Wed 17:20]
