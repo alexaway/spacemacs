@@ -5,7 +5,7 @@ ssh-add 1>/dev/null 2>&1
 
 
 git pull alexaway
-if [ "$(git ls-files -m)" = "" || "$(git diff --cached --name-only --diff-filter=A)" = "" ]
+if [ "$(git ls-files -m)" = "" ] && [ "$(git diff --cached --name-only --diff-filter=A)" = "" ]
 then
     echo "do nothing"
 else    
