@@ -308,6 +308,8 @@ BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
 ****** 在数学以及物理中，拉普拉斯算子或是拉普拉斯算符（英语：Laplace operator, Laplacian）是由欧几里得空间中的一个函数的梯度的散度给出的微分算子，通常写成∇·∇， ∇^2或∆ 。
 ****** 数学表达
        [[file:diary.org_imgs/20161130_113134_26903-dI.png]]
+****** 测试
+       [[file:diary.org_imgs/20161130_115756_32241guC.png]]
 
      :LOGBOOK:
      CLOCK: [2016-11-30 Wed 11:00]--[2016-11-30 Wed 11:13] =>  0:13
