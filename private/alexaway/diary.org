@@ -327,8 +327,13 @@ BLXG947DWI+KVB2C5CSPs2CVYSJS9q0XfBqOVvAqtOQ14Tapnpj4TKCUxMlzLGMN
      :END:
    [2016-11-30 Wed 10:27]
 **** KinectFusion: Real-time 3D Reconstruction and Interaction Using a Moving Depth Camera 
+***** 
+
+
+
 
      :LOGBOOK:
+     CLOCK: [2016-11-30 Wed 19:40]
      CLOCK: [2016-11-30 Wed 17:20]--[2016-11-30 Wed 17:33] =>  0:13
      :END:
    [2016-11-30 Wed 17:20]
