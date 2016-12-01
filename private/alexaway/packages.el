@@ -65,9 +65,10 @@ Each entry is either:
                                         ;:defer t
     :init
     (progn
-      (setq org-agenda-files (quote("~/.emacs.d/private/alexaway/org.org"
+      (setq org-agenda-files (quote("~/.emacs.d/private/alexaway/KILL.org"
                                     "~/.emacs.d/private/alexaway/refile.org"
                                     "~/.emacs.d/private/alexaway/diary.org")))
+
                                         ;key bindings
       (global-set-key (kbd "<f12>") 'org-agenda)
       (global-set-key (kbd "C-c c") 'org-capture)
@@ -121,7 +122,7 @@ Each entry is either:
                      "* MEETING with %? :MEETING:\n%U" :clock-in t :clock-resume t)
                     ("p" "Phone call" entry (file "~/.emacs.d/private/alexaway/refile.org")
                      "* PHONE %? :PHONE:\n%U" :clock-in t :clock-resume t)
-                    ("h" "Habit" entry (file "~/.emacs.d/private/alexaway/refile.org")
+                    ("h" "Habit" entry (file "~/.emacs.d/private/alexaway/KILL.org")
                      "* NEXT %?\n%U\n%a\nSCHEDULED: %(format-time-string \"%<<%Y-%m-%d %a .+1d/3d>>\")\n:PROPERTIES:\n:STYLE: habit\n:REPEAT_TO_STATE: NEXT\n:END:\n"))))
       ;; Remove empty LOGBOOK drawers on clock out
       (defun bh/remove-empty-drawer-on-clock-out ()
