@@ -1,15 +1,23 @@
-* NEXT Reconstruction 
+* TODO Reconstruction
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-12-01 Thu 16:13]
+  :END:
+  - State "DONE"       from "NEXT"       [2016-12-01 Thu 16:13]
 [2016-12-01 Thu 10:35]
 
-SCHEDULED: <2016-12-01 Thu 09:00 .+1d/3d>
+SCHEDULED: <2016-12-02 Fri 09:00 .+1d/3d>
 :PROPERTIES:
 :STYLE: habit
 :REPEAT_TO_STATE: NEXT
 :END:
-* NEXT Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/Documents/Learning/Leet/DP.cpp][cpp]]
+* TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/Documents/Learning/Leet/DP.cpp][cpp]]
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-12-01 Thu 16:13]
+  :END:
+  - State "DONE"       from "NEXT"       [2016-12-01 Thu 16:13]
 [2016-12-01 Thu 10:38]
 
-SCHEDULED: <2016-12-01 Thu 11:00 .+1d/3d>
+SCHEDULED: <2016-12-02 Fri 11:00 .+1d/3d>
 :PROPERTIES:
 :STYLE: habit
 :REPEAT_TO_STATE: NEXT

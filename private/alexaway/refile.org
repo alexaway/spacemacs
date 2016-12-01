@@ -16,8 +16,10 @@
   CLOCK: [2016-11-25 Fri 19:22]--[2016-11-25 Fri 19:23] =>  0:01
   :END::
 [2016-11-25 Fri 19:22]
-* TODO Date with Yali 
+* CANCELLED Date with Yali                                        :CANCELLED:
   DEADLINE: <2016-12-04 Sun 12:00>
+  - State "CANCELLED"  from "TODO"       [2016-12-01 Thu 16:10] \\
+    日了狗了
   :LOGBOOK:
   CLOCK: [2016-11-26 Sat 09:45]--[2016-11-26 Sat 09:46] =>  0:01
   :END:
