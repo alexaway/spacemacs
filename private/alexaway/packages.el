@@ -700,6 +700,10 @@ same directory as the org-buffer and insert a link to this file."
       (global-set-key (kbd "C-c s c") 'my-org-screenshot)
 
 
+                                        ;允许自动换行
+      (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
+
+
       )
     )
   )

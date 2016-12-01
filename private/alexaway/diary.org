@@ -334,13 +334,13 @@
 ****** Depth Map Conversion 
        The live depth map is converted from image coordinates into 3D points (referred to as vertices) and normals in the coordinate space of the camera.
 ****** Camera Tracking 
-       In the tracking phase, a rigid 6DOF transform is computed to closely align the current oriented points with the previous frame, using a GPU implementation of
-       the Iterative Closest Point (ICP) algorithm. Relative transforms are incrementally applied to a single transform that defines the global pose of the Kinect.
+       In the tracking phase, a rigid 6DOF transform is computed to closely align the current oriented points with the previous frame, using a GPU implementation of the Iterative Closest Point (ICP)
+       algorithm. Relative transforms are incrementally applied to a single transform that defines the global pose of the Kinect.
 ****** Volumetric Integration 
-        Instead of fusing point clouds or creating a mesh, we use a volumetric surface representation. Given the global pose of the camera, oriented points are converted into global coordinates,
-        and a single 3D voxel grid is updated. Each voxel stores a running average of its distance to the assumed position of a physical surface.
+       Instead of fusing point clouds or creating a mesh, we use a volumetric surface representation. Given the global pose of the camera, oriented points are converted into global coordinates,
+       and a single 3D voxel grid is updated. Each voxel stores a running average of its distance to the assumed position of a physical surface.
 ****** Raycasting
-        Finally, the volume is raycast to extract views of the implicit surface, for rendering to the user. 
+       Finally, the volume is raycast to extract views of the implicit surface, for rendering to the user. 
 
        :LOGBOOK:
        CLOCK: [2016-11-30 Wed 19:40]--[2016-11-30 Wed 20:58] =>  1:18
@@ -350,11 +350,12 @@
 ** 2016-12 December
 *** 2016-12-01 Thursday
 **** Discrete Combinatorial Laplacian Operators for Digital Geometry Processing
+***** Taubin points out that the eigenvectors of the TL represent the natural vibration modes of the mesh, while the corresponding eigenvalues capture its natural frequencies
+***** Tutte Laplacian(TL), Kirchhoff operator (KL), normalized graph Laplacian (GL)  have been applied to digital geometry processing, e.g. for mesh compression, mesh smoothing, mesh parameterization,spectral mesh watermarking
 ***** 
 
-
-     :LOGBOOK:
-     CLOCK: [2016-12-01 Thu 16:47]
-     :END:
-   [2016-12-01 Thu 16:47]
+      :LOGBOOK:
+      CLOCK: [2016-12-01 Thu 17:15]--[2016-12-01 Thu 17:25] =>  0:10
+      :END:
+      [2016-12-01 Thu 16:47]
 
