@@ -22,33 +22,49 @@ SCHEDULED: <2016-12-02 Fri 11:00 .+1d/3d>
 :STYLE: habit
 :REPEAT_TO_STATE: NEXT
 :END:
-* NEXT Reconstruction 
+* TODO Reconstruction
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-12-01 Thu 21:23]
+  :END:
+  - State "DONE"       from "NEXT"       [2016-12-01 Thu 21:23]
 [2016-12-01 Thu 10:40]
 
-SCHEDULED: <2016-12-01 Thu 14:30 .+1d/3d>
+SCHEDULED: <2016-12-02 Fri 14:30 .+1d/3d>
 :PROPERTIES:
 :STYLE: habit
 :REPEAT_TO_STATE: NEXT
 :END:
-* NEXT Emacs [[http://emacser.com/emacs-resource.htm][resource]]  org-mode [[http://orgmode.org/worg/org-tutorials/][web]] 
+* TODO Emacs [[http://emacser.com/emacs-resource.htm][resource]]  org-mode [[http://orgmode.org/worg/org-tutorials/][web]]
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-12-01 Thu 21:23]
+  :END:
+  - State "DONE"       from "NEXT"       [2016-12-01 Thu 21:23]
 [2016-12-01 Thu 11:15]
 
-SCHEDULED: <2016-12-01 Thu 19:00 .+1d/3d>
+SCHEDULED: <2016-12-02 Fri 19:00 .+1d/3d>
 :PROPERTIES:
 :STYLE: habit
 :REPEAT_TO_STATE: NEXT
 :END:
-* NEXT Shell [[http://linux.vbird.org/linux_basic/0320bash.php][web]]
+* TODO Shell [[http://linux.vbird.org/linux_basic/0320bash.php][web]]
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-12-01 Thu 21:23]
+  :END:
+  - State "DONE"       from "NEXT"       [2016-12-01 Thu 21:23]
 [2016-12-01 Thu 11:54]
-SCHEDULED: <2016-12-01 Thu 20:00 .+1d/3d>
+SCHEDULED: <2016-12-02 Fri 20:00 .+1d/3d>
 :PROPERTIES:
 :STYLE: habit
 :REPEAT_TO_STATE: NEXT
 :END:
-* NEXT Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/Documents/Learning/Leet/DP.cpp][cpp]]
+* TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/Documents/Learning/Leet/DP.cpp][cpp]]
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-12-01 Thu 21:23]
+  :END:
+  - State "DONE"       from "NEXT"       [2016-12-01 Thu 21:23]
 [2016-12-01 Thu 11:58]
 
-SCHEDULED: <2016-12-01 Thu 21:00 .+1d/3d>
+SCHEDULED: <2016-12-02 Fri 21:00 .+1d/3d>
 :PROPERTIES:
 :STYLE: habit
 :REPEAT_TO_STATE: NEXT
