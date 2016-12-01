@@ -30,3 +30,11 @@
   DEADLINE: <2016-12-01 Thu>
 [2016-11-30 Wed 20:58]
 [[file:~/.emacs.d/private/alexaway/diary.org::*set%20the%20global%20ignore%20file][set the global ignore file]]
+* NEXT Learning Reconstruction 
+[2016-12-01 Thu 09:48]
+
+SCHEDULED: <2016-12-01 Thu 09:00 .+1d/3d>
+:PROPERTIES:
+:STYLE: habit
+:REPEAT_TO_STATE: NEXT
+:END:
