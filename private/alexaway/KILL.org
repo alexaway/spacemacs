@@ -1,66 +1,40 @@
 * TODO Reconstruction
+  SCHEDULED: <2016-12-04 Sun 09:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-03 Sat 16:52]
+  :LAST_REPEAT: [2016-12-03 Sat 17:12]
   :END:
-[2016-12-03 Sat 10:35]
-
-SCHEDULED: <2016-12-05 Mon 09:00 .+1d/1d>
-:PROPERTIES:
-:STYLE: habit
-:REPEAT_TO_STATE: NEXT
-:END:
+  - State "DONE"       from "TODO"       [2016-12-03 Sat 17:12]
 * TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/Documents/Learning/Leet/DP.cpp][cpp]]
+  SCHEDULED: <2016-12-04 Sun 11:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-03 Sat 16:52]
+  :LAST_REPEAT: [2016-12-03 Sat 17:13]
   :END:
-[2016-12-03 Sat 10:38]
-
-SCHEDULED: <2016-12-04 Sun 11:00 .+1d/1d>
-:PROPERTIES:
-:STYLE: habit
-:REPEAT_TO_STATE: NEXT
-:END:
+  - State "DONE"       from "TODO"       [2016-12-03 Sat 17:13]
 * TODO Reconstruction
+  SCHEDULED: <2016-12-04 Sun 14:30 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-03 Sat 16:53]
+  :LAST_REPEAT: [2016-12-03 Sat 17:13]
   :END:
-[2016-12-03 Sat 10:40]
-
-SCHEDULED: <2016-12-04 Sun 14:30 .+1d/1d>
-:PROPERTIES:
-:STYLE: habit
-:REPEAT_TO_STATE: NEXT
-:END:
+  - State "DONE"       from "TODO"       [2016-12-03 Sat 17:13]
 * TODO Emacs [[http://emacser.com/emacs-resource.htm][resource]]  org-mode [[http://orgmode.org/worg/org-tutorials/][web]]
+  SCHEDULED: <2016-12-04 Sun 19:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-03 Sat 16:27]
+  :LAST_REPEAT: [2016-12-03 Sat 17:17]
   :END:
-[2016-12-03 Sat 11:15]
-
-SCHEDULED: <2016-12-04 Sun 19:00 .+1d/1d>
-:PROPERTIES:
-:STYLE: habit
-:REPEAT_TO_STATE: NEXT
-:END:
+  - State "DONE"       from "NEXT"       [2016-12-03 Sat 17:17]
 * TODO Shell [[http://linux.vbird.org/linux_basic/0320bash.php][web]]
+  SCHEDULED: <2016-12-04 Sun 20:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-03 Sat 16:27]
+  :LAST_REPEAT: [2016-12-03 Sat 17:20]
   :END:
-[2016-12-03 Sat 11:54]
-SCHEDULED: <2016-12-04 Sun 20:00 .+1d/1d>
-:PROPERTIES:
-:STYLE: habit
-:REPEAT_TO_STATE: NEXT
-:END:
+  - State "DONE"       from "NEXT"       [2016-12-03 Sat 17:20]
 * TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/Documents/Learning/Leet/DP.cpp][cpp]]
+  SCHEDULED: <2016-12-04 Sun 21:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-03 Sat 16:27]
+  :LAST_REPEAT: [2016-12-03 Sat 17:24]
   :END:
-[2016-12-03 Sat 11:58]
-
-SCHEDULED: <2016-12-04 Sun 21:00 .+1d/1d>
-:PROPERTIES:
-:STYLE: habit
-:REPEAT_TO_STATE: NEXT
-:END:
+  - State "DONE"       from "NEXT"       [2016-12-03 Sat 17:24]
+  :LOGBOOK:
+  CLOCK: [2016-12-03 Sat 17:21]--[2016-12-03 Sat 17:23] =>  0:02
+  :END:
 
