@@ -703,7 +703,33 @@ same directory as the org-buffer and insert a link to this file."
                                         ;允许自动换行
       (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 
+                                        ; Enable habit tracking (and a bunch of other modules)
+      (setq org-modules (quote (org-bbdb
+                                org-bibtex
+                                org-crypt
+                                org-gnus
+                                org-id
+                                org-info
+                                org-jsinfo
+                                org-habit
+                                org-inlinetask
+                                org-irc
+                                org-mew
+                                org-mhe
+                                org-protocol
+                                org-rmail
+                                org-vm
+                                org-wl
+                                org-w3m)))
 
+                                        ; position the habit graph on the agenda to the right of the default
+      (setq org-habit-graph-column 50)
+
+
+
+
+
+      
       )
     )
   )
