@@ -1,20 +1,23 @@
 * TODO Reconstruction
-  SCHEDULED: <2016-12-04 Sun 09:00 ++1d>
+  SCHEDULED: <2016-12-05 Mon 09:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-03 Sat 17:12]
+  :LAST_REPEAT: [2016-12-04 Sun 16:41]
   :END:
+  - State "CANCELLED"  from "TODO"       [2016-12-04 Sun 16:41]
   - State "DONE"       from "TODO"       [2016-12-03 Sat 17:12]
 * TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/Documents/Learning/Leet/DP.cpp][cpp]]
-  SCHEDULED: <2016-12-04 Sun 11:00 ++1d>
+  SCHEDULED: <2016-12-05 Mon 11:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-03 Sat 17:13]
+  :LAST_REPEAT: [2016-12-04 Sun 16:41]
   :END:
+  - State "CANCELLED"  from "TODO"       [2016-12-04 Sun 16:41]
   - State "DONE"       from "TODO"       [2016-12-03 Sat 17:13]
 * TODO Reconstruction
-  SCHEDULED: <2016-12-04 Sun 14:30 ++1d>
+  SCHEDULED: <2016-12-05 Mon 14:30 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-03 Sat 17:13]
+  :LAST_REPEAT: [2016-12-04 Sun 16:42]
   :END:
+  - State "CANCELLED"  from "TODO"       [2016-12-04 Sun 16:42]
   - State "DONE"       from "TODO"       [2016-12-03 Sat 17:13]
 * TODO Emacs [[http://emacser.com/emacs-resource.htm][resource]]  org-mode [[http://orgmode.org/worg/org-tutorials/][web]]
   SCHEDULED: <2016-12-04 Sun 19:00 ++1d>
