@@ -454,3 +454,22 @@
 
  
    [2016-12-05 Mon 09:09]
+**** Block Assembly for Global Registration of Building Scans 
+***** SIGGRAPH ASIA 2016  
+***** A framework for global registration of building scans 
+***** Contribution
+******  detect and use portals (e.g.,doors and windows) to improve the local registration between two scans. 
+******  an optimization based on a linear integer programming formulation.
+***** 最优化问题
+****** 数学表达
+       [[file:diary.org_imgs/20161205_102111_15226Rsz.png]]
+****** 分支
+******* 线性规划（Linear Programming，简称LP）特指目标函数和约束条件皆为线性的最优化问题。 
+******* 要求所有的未知量都为整数的线性规划问题叫做整数规划（integer programming, IP）或整数线性规划（integer linear programming, ILP）问题。相对于即使在最坏情况下也能有效率地解出的线性规划问题，整数规划问题的最坏情况是不确定的，在某些实际情况中（有约束变量的那些）为NP困难问题。
+
+
+     :LOGBOOK:
+     CLOCK: [2016-12-05 Mon 10:00]--[2016-12-05 Mon 10:08] =>  0:08
+     :END:
+   [2016-12-05 Mon 10:00]
+
