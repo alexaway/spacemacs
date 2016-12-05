@@ -1,46 +1,52 @@
-* NEXT Reconstruction
-  SCHEDULED: <2016-12-05 Mon 09:00 ++1d>
+* TODO Reconstruction
+  SCHEDULED: <2016-12-06 Tue 09:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-04 Sun 16:41]
+  :LAST_REPEAT: [2016-12-05 Mon 23:25]
   :END:
+  - State "DONE"       from "NEXT"       [2016-12-05 Mon 23:25]
   :LOGBOOK:
   CLOCK: [2016-12-05 Mon 08:37]--[2016-12-05 Mon 09:09] =>  0:32
   :END:
   - State "CANCELLED"  from "TODO"       [2016-12-04 Sun 16:41]
   - State "DONE"       from "TODO"       [2016-12-03 Sat 17:12]
-* TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/Documents/Learning/Leet/DP.cpp][cpp]]
-  SCHEDULED: <2016-12-05 Mon 11:00 ++1d>
+* TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/.emacs.d/private/alexaway/DP.cpp][cpp]]
+  SCHEDULED: <2016-12-06 Tue 11:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-04 Sun 16:41]
+  :LAST_REPEAT: [2016-12-05 Mon 23:25]
   :END:
+  - State "CANCELLED"  from "TODO"       [2016-12-05 Mon 23:25]
   - State "CANCELLED"  from "TODO"       [2016-12-04 Sun 16:41]
   - State "DONE"       from "TODO"       [2016-12-03 Sat 17:13]
 * TODO Reconstruction
-  SCHEDULED: <2016-12-05 Mon 14:30 ++1d>
+  SCHEDULED: <2016-12-06 Tue 14:30 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-04 Sun 16:42]
+  :LAST_REPEAT: [2016-12-05 Mon 23:25]
   :END:
+  - State "DONE"       from "TODO"       [2016-12-05 Mon 23:25]
   - State "CANCELLED"  from "TODO"       [2016-12-04 Sun 16:42]
   - State "DONE"       from "TODO"       [2016-12-03 Sat 17:13]
 * TODO Emacs [[http://emacser.com/emacs-resource.htm][resource]]  org-mode [[http://orgmode.org/worg/org-tutorials/][web]]
-  SCHEDULED: <2016-12-05 Mon 19:00 ++1d>
+  SCHEDULED: <2016-12-06 Tue 19:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-05 Mon 09:04]
+  :LAST_REPEAT: [2016-12-05 Mon 23:25]
   :END:
+  - State "CANCELLED"  from "TODO"       [2016-12-05 Mon 23:25]
   - State "CANCELLED"  from "TODO"       [2016-12-05 Mon 09:04]
   - State "DONE"       from "NEXT"       [2016-12-03 Sat 17:17]
 * TODO Shell [[http://linux.vbird.org/linux_basic/0320bash.php][web]]
-  SCHEDULED: <2016-12-05 Mon 20:00 ++1d>
+  SCHEDULED: <2016-12-06 Tue 20:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-05 Mon 09:04]
+  :LAST_REPEAT: [2016-12-05 Mon 23:25]
   :END:
+  - State "CANCELLED"  from "TODO"       [2016-12-05 Mon 23:25]
   - State "DONE"       from "TODO"       [2016-12-05 Mon 09:04]
   - State "DONE"       from "NEXT"       [2016-12-03 Sat 17:20]
-* TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/Documents/Learning/Leet/DP.cpp][cpp]]
-  SCHEDULED: <2016-12-05 Mon 21:00 ++1d>
+* TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/.emacs.d/private/alexaway/DP.cpp][cpp]]
+  SCHEDULED: <2016-12-06 Tue 21:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-05 Mon 09:04]
+  :LAST_REPEAT: [2016-12-05 Mon 23:25]
   :END:
+  - State "DONE"       from "TODO"       [2016-12-05 Mon 23:25]
   - State "CANCELLED"  from "TODO"       [2016-12-05 Mon 09:04]
   - State "DONE"       from "NEXT"       [2016-12-03 Sat 17:24]
   :LOGBOOK:
