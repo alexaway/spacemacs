@@ -32,6 +32,7 @@
 (defconst alexaway-packages
   '(
     org
+    cal-china-x
     )
   "The list of Lisp packages required by the alexaway layer.
 
