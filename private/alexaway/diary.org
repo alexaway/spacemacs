@@ -449,10 +449,12 @@
 ***** Robotics: Science and Systems (RSS), Rome, Italy, July 2015. 
 ***** SLAM: Simultaneous localization and mapping 同步定位与地图构建
 ****** 是一种概念：希望机器人从未知环境的未知地点出发，在运动过程中通过重复观测到的地图特征（比如，墙角，柱子等）定位自身位置和姿态，再根据自身位置增量式的构建地图，从而达到同时定位和地图构建的目的。   
+   
 
-
-
- 
+   :LOGBOOK:
+       CLOCK: [2016-12-06 Tue 09:37]--[2016-12-06 Tue 09:49] =>  0:12
+   :END:
+       
    [2016-12-05 Mon 09:09]
 **** Block Assembly for Global Registration of Building Scans 
 ***** SIGGRAPH ASIA 2016  
@@ -466,9 +468,14 @@
 ****** 分支
 ******* 线性规划（Linear Programming，简称LP）特指目标函数和约束条件皆为线性的最优化问题。 
 ******* 要求所有的未知量都为整数的线性规划问题叫做整数规划（integer programming, IP）或整数线性规划（integer linear programming, ILP）问题。相对于即使在最坏情况下也能有效率地解出的线性规划问题，整数规划问题的最坏情况是不确定的，在某些实际情况中（有约束变量的那些）为NP困难问题。
+*****  the sensor range of Microsoft Kinect is [0.6m, 4m]
+***** 
 
 
-     :LOGBOOK:
+
+
+   :LOGBOOK:
+     CLOCK: [2016-12-06 Tue 09:49]
      CLOCK: [2016-12-05 Mon 10:00]--[2016-12-05 Mon 10:08] =>  0:08
      :END:
    [2016-12-05 Mon 10:00]
@@ -485,3 +492,5 @@
      CLOCK: [2016-12-05 Mon 11:41]--[2016-12-05 Mon 11:46] =>  0:05
      :END:
    [2016-12-05 Mon 11:41]
+*** 2016-12-06 Tuesday
+    
