@@ -484,15 +484,22 @@
 ******* 本文默认的输入是multiple scan
 ****** Pairwise registration 
 ******* Given two scans, pairwise registration computes a rigid or non-rigid transformation between the two input scans. 
-******* 
-
+******* ICP and its variants, 要求两个扫描数据之间要有大量的重复
+******* 基于 pairwise registration, KinectFusion 及其变种提供了将深度信息融合到单个模型，缺点是只能处理小型场景
+****** Global registration
+******* 通常是在 pairwise registration（pr） 的基础上, 最小化pr的累计误差 
+****** Block assembly
+******* computational assembly of interlocking burr puzzles => NP hard 
+***** Overview
+****** Given a set of separately scanned point clouds representing a building, our goal is to register them into a consistent global coordinate frame. 
+****** 
 
 
 
 
 
    :LOGBOOK:
-     CLOCK: [2016-12-06 Tue 09:49]
+     CLOCK: [2016-12-06 Tue 09:49]--[2016-12-06 Tue 11:47] =>  1:58
      CLOCK: [2016-12-05 Mon 10:00]--[2016-12-05 Mon 10:08] =>  0:08
      :END:
    [2016-12-05 Mon 10:00]

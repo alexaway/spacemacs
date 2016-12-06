@@ -1,8 +1,9 @@
 * TODO Reconstruction
-  SCHEDULED: <2016-12-06 Tue 09:00 ++1d>
+  SCHEDULED: <2016-12-07 Wed 09:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-05 Mon 23:25]
+  :LAST_REPEAT: [2016-12-06 Tue 11:47]
   :END:
+  - State "DONE"       from "TODO"       [2016-12-06 Tue 11:47]
   - State "DONE"       from "NEXT"       [2016-12-05 Mon 23:25]
   :LOGBOOK:
   CLOCK: [2016-12-05 Mon 08:37]--[2016-12-05 Mon 09:09] =>  0:32
@@ -10,10 +11,11 @@
   - State "CANCELLED"  from "TODO"       [2016-12-04 Sun 16:41]
   - State "DONE"       from "TODO"       [2016-12-03 Sat 17:12]
 * TODO Leet code [[https://leetcode.com/tag/dynamic-programming/][web]] [[file:/home/alexaway/.emacs.d/private/alexaway/DP.cpp][cpp]]
-  SCHEDULED: <2016-12-06 Tue 11:00 ++1d>
+  SCHEDULED: <2016-12-07 Wed 11:00 ++1d>
   :PROPERTIES:
-  :LAST_REPEAT: [2016-12-05 Mon 23:25]
+  :LAST_REPEAT: [2016-12-06 Tue 11:47]
   :END:
+  - State "CANCELLED"  from "TODO"       [2016-12-06 Tue 11:47]
   - State "CANCELLED"  from "TODO"       [2016-12-05 Mon 23:25]
   - State "CANCELLED"  from "TODO"       [2016-12-04 Sun 16:41]
   - State "DONE"       from "TODO"       [2016-12-03 Sat 17:13]
