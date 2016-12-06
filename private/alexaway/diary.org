@@ -457,19 +457,36 @@
        
    [2016-12-05 Mon 09:09]
 **** Block Assembly for Global Registration of Building Scans 
-***** SIGGRAPH ASIA 2016  
-***** A framework for global registration of building scans 
-***** Contribution
-******  detect and use portals (e.g.,doors and windows) to improve the local registration between two scans. 
-******  an optimization based on a linear integer programming formulation.
 ***** 最优化问题
 ****** 数学表达
        [[file:diary.org_imgs/20161205_102111_15226Rsz.png]]
 ****** 分支
 ******* 线性规划（Linear Programming，简称LP）特指目标函数和约束条件皆为线性的最优化问题。 
 ******* 要求所有的未知量都为整数的线性规划问题叫做整数规划（integer programming, IP）或整数线性规划（integer linear programming, ILP）问题。相对于即使在最坏情况下也能有效率地解出的线性规划问题，整数规划问题的最坏情况是不确定的，在某些实际情况中（有约束变量的那些）为NP困难问题。
-*****  the sensor range of Microsoft Kinect is [0.6m, 4m]
-***** 
+***** SIGGRAPH ASIA 2016   
+***** Contribution
+****** the =first= global registration framework that can handle scans of isolated rooms and scans that capture both the exteriors and interiors of buildings based on portals extracted from scans
+****** present a novel formulation of global registration based on constrained combinatorial optimization and an efficient solution by iteratively adding constraints.
+****** demonstrate reliable registration results for building scans in cases where existing state-of-the-art methods fail.
+***** the sensor range of Microsoft Kinect is [0.6m, 4m]
+***** Challenge for registration of building scans 
+****** scans obtained by a static scanner are spatially far apart. registration of these scans becomes a global matching problem
+****** buildings mainly consist of piecewise planar regions, which means that fewer unique features can be extracted for registration.(缺少约束信息，比如墙面等)
+****** sufficient overlaps required for registration cannot always be guaranteed during scanning. 
+******* 对于建筑内部或外部可以通过创建重叠部分来支持匹配，但是对于将内部扫描匹配到外部的情况，无法满足 
+***** one option to simplify the registration problem is to exploit high-precision positioning techniques
+****** GPS position error larger than 3.5m [GPS.gov 2015]
+****** WiFi position system (1m-5m)
+****** In engineering scenarios, markers are usually required and are carefully placed in the scene before scanning, and manual work is required to obtain the registration.
+***** Related Works 
+****** Acquisition planning (采购计划？)
+******* aims at strategically positioning the scanner to achieve improved coverage of a physical object.
+******* 本文默认的输入是multiple scan
+****** Pairwise registration 
+******* Given two scans, pairwise registration computes a rigid or non-rigid transformation between the two input scans. 
+******* 
+
+
 
 
 
