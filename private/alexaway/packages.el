@@ -76,6 +76,7 @@ Each entry is either:
       (global-set-key (kbd "<f11>") 'org-clock-goto)
       (global-set-key (kbd "<f9> I") 'bh/punch-in)
       (global-set-key (kbd "<f9> O") 'bh/punch-out)
+      (global-set-key (kbd "<f8>") 'calendar)
       (global-set-key "\C-cb" 'org-iswitchb)
                                         ;todo keywords 
       (setq org-todo-keywords
@@ -735,6 +736,44 @@ same directory as the org-buffer and insert a link to this file."
     )
   )
 
+(defun alexaway/init-cal-china-x()
+  (use-package cal-china-x
+    :init
+    (progn
+      (setq mark-holidays-in-calendar t)
+      ;(setq cal-china-x-important-holidays cal-china-x-chinese-holidays)
+      (setq holiday-alexaway-holidays
+            '(;;公历节日
+              (holiday-fixed 1 1 "元旦")
+              (holiday-fixed 2 14 "情人节")
+              (holiday-fixed 3 8 "妇女节")
+              (holiday-fixed 3 14 "白色情人节")
+              (holiday-fixed 4 1 "愚人节")
+              (holiday-fixed 5 1 "劳动节")
+              (holiday-float 5 0 2 "母亲节")
+              (holiday-fixed 6 1 "儿童节")
+              (holiday-float 6 0 3 "父亲节")
+              (holiday-fixed 9 10 "教师节")
+              (holiday-fixed 10 1 "国庆节")
+              (holiday-fixed 12 25 "圣诞节")
+              ;; 农历节日
+              (holiday-lunar 1 1 "春节" 0)
+              (holiday-lunar 1 2 "春节" 0)
+              (holiday-lunar 1 3 "春节" 0)
+              (holiday-lunar 1 15 "元宵节" 0)
+              (holiday-solar-term "清明" "清明节")
+              (holiday-lunar 5 5 "端午节" 0)
+              (holiday-lunar 8 15 "中秋节" 0)
+              ;; 生日 -- 家人,朋友
+              (holiday-fixed 8 11 "亲爱的生日")
+              (holiday-lunar 6 29 "老妈生日")
+              (holiday-lunar 9 29 "老爸生日")
+              ))
+      (setq calendar-holidays holiday-alexaway-holidays)
 
+      )
+
+    )
+  )
 
 ;;; packages.el ends here
