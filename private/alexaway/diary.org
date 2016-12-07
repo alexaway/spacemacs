@@ -525,7 +525,17 @@
          本文首先使用了 Harris key point detector [Harris and Stephens 1988] 的一个变种计算了点集中的关键点,这一步大大减少了点的数目,然后计算了每个关键点的Point Feature Histogram [Rusu and Cousins 2011],然后使用了一个基于RANSAC 的对齐操作,然后是通过ICP进行refinement. 本文使用[Horn 1987]的方法计算两个block之间的变换  
 ******* 最后把两种类型的聚类都标准化到[0,1], 我们把每条边的权重 s_i=1-d_i 其中d_i 表示之前标准化的距离  
 ***** Block assembly
-      
+      Block assembly算法就是在上述图中选取一些边, 让这些边的分数总和最高, 而且保持仍然为连通图, 每一个block都可以计算出唯一的一个到其他任意一个block的变换.
+      定义 B = {b_1,..., b_m} 为M个输入的block
+      定义 X = {x_1,..., x_n} 为N个匹配的成对的portal或成对的block的二元集合
+****** Matching confidence 
+       该项定义了平均matching score, 这一项鼓励block的对齐结果更加紧凑
+       [[file:diary.org_imgs/20161207_191810_19583hiB.png]]
+       其中s_i 表示第i条边的Matching score, x_i 表示第i条边是（1）否（0）选中
+****** Connectivity
+       为了能使更多的block能够匹配, 这里鼓励有更多的边
+       [[file:diary.org_imgs/20161207_192506_19583usH.png]]
+       
          
 
 
@@ -539,6 +549,7 @@
 
  
    :LOGBOOK:
+   CLOCK: [2016-12-07 Wed 18:44]--[2016-12-07 Wed 19:25] =>  0:41
    CLOCK: [2016-12-07 Wed 14:48]--[2016-12-07 Wed 16:11] =>  1:23
    CLOCK: [2016-12-07 Wed 11:36]--[2016-12-07 Wed 12:03] =>  0:27
    CLOCK: [2016-12-07 Wed 10:41]--[2016-12-07 Wed 11:33] =>  0:52
