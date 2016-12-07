@@ -727,8 +727,7 @@ same directory as the org-buffer and insert a link to this file."
                                         ; position the habit graph on the agenda to the right of the default
       (setq org-habit-graph-column 50)
 
-
-
+      (setq org-pretty-entities t)
 
 
       
