@@ -261,9 +261,9 @@
       | range   |   0-59 | 0-23 | 1-31 |  1-12 |  0-7 | that's it | 
 ***** 特殊字符  
 ****** * ：任何时刻都接受
-****** , ：分割时段
-****** - ：一段时间范围
-****** /n：每隔n单位时间
+****** , ：分割时段 0 3,6 * * * command ：在3:00 和6:00 执行command命令
+****** - ：一段时间范围 20 8-12 * * * command： 8:00 到12:00 每二十分钟执行一次
+****** /n：每隔n单位时间 */5 * * * * command： 每隔五分钟执行一次
 ****** 这是一个测试
 ***** [[http://linux.vbird.org/linux_basic/0430cron.php#crontab][for details]] 
 
@@ -492,13 +492,14 @@
 ******* computational assembly of interlocking burr puzzles => NP hard 
 ***** Overview
 ****** Given a set of separately scanned point clouds representing a building, our goal is to register them into a consistent global coordinate frame. 
-****** 
+******  
 
 
 
 
 
    :LOGBOOK:
+   CLOCK: [2016-12-07 Wed 09:32]
      CLOCK: [2016-12-06 Tue 09:49]--[2016-12-06 Tue 11:47] =>  1:58
      CLOCK: [2016-12-05 Mon 10:00]--[2016-12-05 Mon 10:08] =>  0:08
      :END:
