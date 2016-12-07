@@ -522,7 +522,10 @@
          [[file:diary.org_imgs/20161207_163741_19583vYy.png]]
          其中 Q={q_i}以及Q^1={q_i^1}分别表示对应的两组3D点集, n以及n^1 表示对应支持平面的法向量, R,t代表要计算的旋转和平移的关系, t_wall 表示由用户指定的墙体的厚度,这是一个有线性约束的二次规划问题,本文用[Bochkanov 2015]的方法计算的
 ******** Pairwise block matching
-         本文首先使用了 Harris key point detector [Harris and Stephens 1988] 的一个变种计算了点集中的关键点,这一步大大减少了点的数目,然后计算了每个关键点的Point Feature Histogram [Rusu and Cousins 2011],   
+         本文首先使用了 Harris key point detector [Harris and Stephens 1988] 的一个变种计算了点集中的关键点,这一步大大减少了点的数目,然后计算了每个关键点的Point Feature Histogram [Rusu and Cousins 2011],然后使用了一个基于RANSAC 的对齐操作,然后是通过ICP进行refinement. 本文使用[Horn 1987]的方法计算两个block之间的变换  
+******* 最后把两种类型的聚类都标准化到[0,1], 我们把每条边的权重 s_i=1-d_i 其中d_i 表示之前标准化的距离  
+***** Block assembly
+      
          
 
 
@@ -536,6 +539,7 @@
 
  
    :LOGBOOK:
+   CLOCK: [2016-12-07 Wed 17:14]
    CLOCK: [2016-12-07 Wed 14:48]--[2016-12-07 Wed 16:11] =>  1:23
    CLOCK: [2016-12-07 Wed 11:36]--[2016-12-07 Wed 12:03] =>  0:27
    CLOCK: [2016-12-07 Wed 10:41]--[2016-12-07 Wed 11:33] =>  0:52
