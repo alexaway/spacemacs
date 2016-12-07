@@ -468,16 +468,16 @@
 ****** the =first= global registration framework that can handle scans of isolated rooms and scans that capture both the exteriors and interiors of buildings based on portals extracted from scans
 ****** present a novel formulation of global registration based on constrained combinatorial optimization and an efficient solution by iteratively adding constraints.
 ****** demonstrate reliable registration results for building scans in cases where existing state-of-the-art methods fail.
-***** the sensor range of Microsoft Kinect is [0.6m, 4m]
 ***** Challenge for registration of building scans 
 ****** scans obtained by a static scanner are spatially far apart. registration of these scans becomes a global matching problem
 ****** buildings mainly consist of piecewise planar regions, which means that fewer unique features can be extracted for registration.(缺少约束信息，比如墙面等)
 ****** sufficient overlaps required for registration cannot always be guaranteed during scanning. 
 ******* 对于建筑内部或外部可以通过创建重叠部分来支持匹配，但是对于将内部扫描匹配到外部的情况，无法满足 
-***** one option to simplify the registration problem is to exploit high-precision positioning techniques
-****** GPS position error larger than 3.5m [GPS.gov 2015]
-****** WiFi position system (1m-5m)
-****** In engineering scenarios, markers are usually required and are carefully placed in the scene before scanning, and manual work is required to obtain the registration.
+****** one option to simplify the registration problem is to exploit high-precision positioning techniques
+******* GPS position error larger than 3.5m [GPS.gov 2015]
+******* the sensor range of Microsoft Kinect is [0.6m, 4m]
+******* WiFi position system (1m-5m)
+******* In engineering scenarios, markers are usually required and are carefully placed in the scene before scanning, and manual work is required to obtain the registration.
 ***** Related Works 
 ****** Acquisition planning (采购计划？)
 ******* aims at strategically positioning the scanner to achieve improved coverage of a physical object.
@@ -495,17 +495,25 @@
 ****** Preprocessing.
        在预处理阶段, 通过检测每个scan的最大连通分量作为一个block，这些blocks是本文算法的输入，当然本文的输入不只是这种形式
 ****** Portal Detection
-       
-
+       能够通过启发式算法自动识别墙以及门，允许用户手动添加删除
+****** Graph construction
+       portal以及blocks通过图来编码，其中边表示潜在的成对的对齐关系,对边赋权重代表两个portal或blocks的匹配程度
+****** Block assembly
+       本文通过解决一个组合优化问题来实现全局一致性配准，本文提出了一个现行整数优化的方法.
+****** Acceleration algorithm
+       本文通过逐步把约束加入到计算当中的策略来实现加速
+***** Methodology 
+****** 
 
 
 
 
    :LOGBOOK:
+   CLOCK: [2016-12-07 Wed 10:41]
    CLOCK: [2016-12-07 Wed 10:08]--[2016-12-07 Wed 10:31] =>  0:23
-     CLOCK: [2016-12-06 Tue 09:49]--[2016-12-06 Tue 11:47] =>  1:58
-     CLOCK: [2016-12-05 Mon 10:00]--[2016-12-05 Mon 10:08] =>  0:08
-     :END:
+   CLOCK: [2016-12-06 Tue 09:49]--[2016-12-06 Tue 11:47] =>  1:58
+   CLOCK: [2016-12-05 Mon 10:00]--[2016-12-05 Mon 10:08] =>  0:08
+   :END:
    [2016-12-05 Mon 10:00]
 
 **** mount [-t vfstype] [-o options] device dir
