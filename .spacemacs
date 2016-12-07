@@ -18,6 +18,8 @@ values."
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
    '(
+     octave
+     markdown
      html
      html
      ;; ----------------------------------------------------------------
@@ -30,6 +32,7 @@ values."
      ;; better-defaults
      emacs-lisp
      (c-c++ :variables c-c++-enable-clang-support t)
+     ;;octave
      ;c-c++
      ;ycmd
      gtags
@@ -263,6 +266,7 @@ explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
   (global-linum-mode)  ;;show the line number
   (add-hook 'doc-view-mode-hook 'auto-revert-mode)
+
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
