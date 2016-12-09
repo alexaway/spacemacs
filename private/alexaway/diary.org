@@ -610,3 +610,10 @@
      CLOCK: [2016-12-07 Wed 16:12]--[2016-12-07 Wed 16:13] =>  0:01
      :END:
    [2016-12-07 Wed 16:12]
+*** 2016-12-09 Friday
+**** gitlab repo 默认位置 
+     /var/opt/gitlab/git-data
+     :LOGBOOK:
+     CLOCK: [2016-12-09 Fri 16:04]--[2016-12-09 Fri 16:05] =>  0:01
+     :END:
+   [2016-12-09 Fri 16:04]
