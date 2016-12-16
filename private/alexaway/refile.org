@@ -30,7 +30,7 @@
 * TODO Learn Git 
   DEADLINE: <2016-12-01 Thu>
 [2016-11-30 Wed 20:58]
-* TODO 组会讲论文 
+* DONE 组会讲论文
   DEADLINE: <2016-12-16 Fri 15:20>
   :LOGBOOK:
   CLOCK: [2016-12-04 Sun 16:40]--[2016-12-04 Sun 16:41] =>  0:01
