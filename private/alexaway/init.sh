@@ -1,22 +1,23 @@
 #!/bin/sh
 
+# don't use sudo and copy the rsa file to the new system
 cd ~
 if [ -e .gitconfig ]
 then 
     rm .gitconfig
-    git config --global user.name alexaway
-    git config --global user.email 1527381991@qq.com
-    git config --global core.editor eamcs
-    git config --global color.ui true
-    git config --global push.default simple
 fi
+git config --global user.name alexaway
+git config --global user.email 1527381991@qq.com
+git config --global core.editor eamcs
+git config --global color.ui true
+git config --global push.default simple
 
 if [ -d .emacs.d ]
 then
    echo "the .emacs.d directory exists!"
    mv .emacs.d .emacs.d.bak
 fi
-git clone git@github.com:alexaway/spacemacs.git .emacs.d
+git clone https://github.com/alexaway/spacemacs.git .emacs.d
 
 cp ~/.emacs.d/.spacemacs ~/.spacemacs
 
