@@ -1,6 +1,6 @@
 #!/bin/sh
 
-apt-get install unity-tweak-tool conky-all git clang
+apt-get install unity-tweak-tool conky-all git clang build-essential cmake python-dev
 
 add-apt-repository ppa:noobslab/themes
 apt-get update
