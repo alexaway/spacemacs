@@ -632,3 +632,10 @@
      CLOCK: [2016-12-15 Thu 16:08]--[2016-12-15 Thu 16:10] =>  0:02
      :END:
    [2016-12-15 Thu 16:08]
+*** 2016-12-19 Monday
+**** 一个计算两个平面交线的算法 
+     [[file:files/intersection.doc][Intersection between two planes]]
+     :LOGBOOK:
+     CLOCK: [2016-12-19 Mon 21:31]--[2016-12-19 Mon 21:33] =>  0:02
+     :END:
+   [2016-12-19 Mon 21:31]
