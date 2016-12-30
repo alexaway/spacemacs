@@ -770,6 +770,7 @@ same directory as the org-buffer and insert a link to this file."
               ))
       (setq calendar-holidays holiday-alexaway-holidays)
       (setq calendar-mark-holidays-flag t)
+
       )
 
     )
