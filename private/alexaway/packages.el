@@ -769,7 +769,7 @@ same directory as the org-buffer and insert a link to this file."
               (holiday-lunar 9 29 "老爸生日")
               ))
       (setq calendar-holidays holiday-alexaway-holidays)
-
+      (setq calendar-mark-holidays-flag t)
       )
 
     )
