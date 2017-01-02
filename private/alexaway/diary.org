@@ -1,0 +1,654 @@
+
+* 2016
+** 2016-11 November
+*** 2016-11-24 Thursday
+**** 今天应该是一个阳光明媚的一天，我在实验室里编代码，好悲伤 
+     :LOGBOOK:
+     CLOCK: [2016-11-24 Thu 16:25]--[2016-11-24 Thu 16:26] =>  0:01
+     :END:
+     [2016-11-24 Thu 16:25]
+**** What the fuck 这尼玛都是什么啊啊啊啊啊 
+     :LOGBOOK:
+     CLOCK: [2016-11-24 Thu 17:13]--[2016-11-24 Thu 17:15] =>  0:02
+     :END:
+     [2016-11-24 Thu 17:13]
+**** 我们去看一场电影吧，你说呢 
+     [2016-11-24 Thu 17:52]
+**** 滕王阁序 
+     豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃之榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。
+     时维九月，序属三秋。潦水尽而寒潭清，烟光凝而暮山紫。俨骖騑于上路，访风景于崇阿。临帝子之长洲，得仙人之旧馆。层峦耸翠，上出重霄；飞阁流丹，下临无地。鹤汀凫渚，穷岛屿之萦回；桂殿兰宫，列冈峦之体势。
+     披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰迷津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨，雁阵惊寒，声断衡阳之浦。
+     遥吟俯畅，逸兴遄飞。爽籁发而清风生，纤歌凝而白云遏。睢园绿竹，气凌彭泽之樽；邺水朱华，光照临川之笔。四美具，二难并。穷睇眄于中天，极娱游于暇日。天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。望长安于日下，目吴会于云间。地势极而南溟深，天柱高而北辰远。关山难越，谁悲失路之人；萍水相逢，尽是他乡之客。怀帝阍而不见，奉宣室以何年？
+     嗟乎！时运不齐，命途多舛。冯唐易老，李广难封。屈贾谊于长沙，非无圣主；窜梁鸿于海曲，岂乏明时？所赖君子安贫，达人知命。老当益壮，宁移白首之心？穷且益坚，不坠青云之志。酌贪泉而觉爽，处涸辙以犹欢。北海虽赊，扶摇可接；东隅已逝，桑榆非晚。孟尝高洁，空余报国之情；阮籍猖狂，岂效穷途之哭！
+     勃，三尺微命，一介书生。无路请缨，等终军之弱冠；有怀投笔，慕宗悫之长风。舍簪笏于百龄，奉晨昏于万里。非谢家之宝树，接孟氏之芳邻。他日趋庭，叨陪鲤对；今兹捧袂，喜托龙门。杨意不逢，抚凌云而自惜；钟期既遇，奏流水以何惭？
+     呜乎！胜地不常，盛筵难再；兰亭已矣，梓泽丘墟。临别赠言，幸承恩于伟饯；登高作赋，是所望于群公。敢竭鄙怀，恭疏短引；一言均赋，四韵俱成。请洒潘江，各倾陆海云尔：
+     滕王高阁临江渚，佩玉鸣鸾罢歌舞。
+     画栋朝飞南浦云，珠帘暮卷西山雨。
+     闲云潭影日悠悠，物换星移几度秋。
+     阁中帝子今何在？槛外长江空自流。
+     :LOGBOOK:
+     CLOCK: [2016-11-24 Thu 17:54]--[2016-11-24 Thu 17:55] =>  0:01
+     :END:
+     [2016-11-24 Thu 17:54]
+**** 现在总算把org-mode 初步的配置了一下，革命尚未成功，同志仍需努力啊 
+     :LOGBOOK:
+     CLOCK: [2016-11-24 Thu 19:44]--[2016-11-24 Thu 19:45] =>  0:01
+     :END:
+     [2016-11-24 Thu 19:44]
+**** 不如意事常八九，可与言者无二三 
+     [2016-11-24 Thu 20:12]
+**** 小小摘抄 
+***** 当你老了，回顾一生，就会发觉：什么时候出国读书，什么时候决定做第一份职业、何时选定了对象而恋爱、什么时候结婚，其实都是命运的巨变。只是当时站在三岔路口，眼见风云千樯，你作出选择的那一日，在日记上，相当沉闷和平凡，当时还以为是生命中普通的一天。
+      :LOGBOOK:
+      CLOCK: [2016-11-24 Thu 20:16]--[2016-11-24 Thu 21:45] =>  1:29
+      :END:
+      [2016-11-24 Thu 20:16]
+**** org mode 
+***** org mode 果然非常吊啊，可以说吊的不行。
+***** 今天还是收获蛮大的，明天晚上吧，把git搞一搞，实现同步功能，哎呀，迈向人生巅峰有木有啊
+      :LOGBOOK:
+      CLOCK: [2016-11-24 Thu 21:15]--[2016-11-24 Thu 21:18] =>  0:03
+      :END:
+      [2016-11-24 Thu 21:15]
+**** 好累啊，其实还行，就是前天练的那一组腹肌撕裂者的劲儿还没缓过来，我要回去了 
+     :LOGBOOK:
+     CLOCK: [2016-11-24 Thu 23:12]--[2016-11-24 Thu 23:13] =>  0:01
+     :END:
+     [2016-11-24 Thu 23:12]
+*** 2016-11-25 Friday
+**** 刚到实验室，上午又荒废了，呵呵呵 
+     [2016-11-25 Fri 14:42]
+**** Learning Git 
+***** Configuration
+      #+BEGIN_SRC shell
+        git config --global user.name=alexaway
+        git config --global user.email=1527381991@qq.com
+        git config --global core.editor=emacs
+        git config --global color.ui=true
+      #+END_SRC
+      [[file:~/.gitconfig][my .gitconfig file]]
+***** initializing a repository
+      #+BEGIN_SRC shell
+        git init
+        git add .
+        git commit -m "Initial commit"
+        git log --since= --until= --author= --grep --oneline
+        git status
+      #+END_SRC
+***** Git conception and architecture
+****** tree architecture
+       add -- commit
+****** check the difference among files
+       #+BEGIN_SRC shell
+         git diff
+         git diff --staged/cached                                # show diff between index and named commit
+         git rm file_name
+       #+END_SRC
+
+       :LOGBOOK:
+       CLOCK: [2016-11-25 Fri 20:58]--[2016-11-25 Fri 22:18] =>  1:20
+       :END:
+       [2016-11-25 Fri 20:58]
+*** 2016-11-26 Saturday
+**** Learning Git 
+***** Something new
+      #+BEGIN_SRC shell
+        git diff --color-words file_name #only show the difference part
+      #+END_SRC
+***** Undo 
+      #+BEGIN_SRC shell
+        git checkout -- file_name                               # -- for checkout the current branch, undo the changes made in file_name
+        git checkout cc84e623be713f4f9f9ee8885884 -- file_name 
+        git reset HEAD file_name                                # unstage
+        git commit --amend                                      #修改最后一次提交
+        git revert cc85584aab858cd56e                           #创建一个新的，撤消(revert)了前期修改的提交(commit) 
+        git reset 13a5dd315ee6975ddb5700ba 
+      #+END_SRC
+      [[http://www.cnblogs.com/kidsitcn/p/4513297.html][git reset 详解]] (C_c C_l create links in emacs)
+***** ignore files
+****** edit the .gitignore file in the root directory of the project, support regular expression
+****** the github give some example of .gitignore [[https://github.com/github/gitignore][ligitnk]]
+****** set the global ignore file
+       #+BEGIN_SRC shell
+         git config --global core.excludesfile ~/.whatever_you_named
+       #+END_SRC
+***** referencing commit
+      #+BEGIN_SRC shell
+        git ls-tree
+      #+END_SRC
+***** branching
+      #+BEGIN_SRC shell
+        git branch                                              # show all the branches in the local machine
+        git branch branch_name                                  # create the new branch
+        git checkout new_branch                                 # switch to the new_branch
+        git show HEAD         
+        git branch -b branch_name                               # 从当前节点建立新的branch并且switch到新的branch上
+        git log --graph --oneline --decorate --all
+        git diff master..new_feature --color-words              # show the difference between master and new_feature
+        git diff master..new_feature^^ / master..new_feature~2  # 二者都是一个意思，比较master与new_feature的前两代祖先
+        git branch --merged                                     # only list branches which are fully contained by HEAD
+        git branch -m new_feature nnew_feature                  # rename the branch
+        git branch -d branch_to_delete                          # delete the branch
+      #+END_SRC
+***** merging branch
+      #+BEGIN_SRC shell
+        git merge branch_name
+      #+END_SRC
+****** when make a conflict
+       #+BEGIN_SRC shell
+         git merge --aobrt
+       #+END_SRC
+****** merge often
+***** Stashing changes 
+      #+BEGIN_SRC shell
+        git stash save "some comments"
+        git stash list
+        git stash show -p stash@\{0\}
+        git stash pop  stash@\{0\}                             # remove and apply a single stashed state from the stash list
+        git stash apply stash@\{0\}                            # apply the changes recorded in the stash
+        git stash clear(all) / drop(one)
+      #+END_SRC
+      :LOGBOOK:
+      CLOCK: [2016-11-26 Sat 14:57]--[2016-11-26 Sat 17:48] =>  2:51
+      :END:
+      [2016-11-26 Sat 14:57]
+*** 2016-11-27 Sunday
+**** 如果离开小惠能让她变得更好，我会怎么做？她是个傻孩子啊。       
+     :LOGBOOK:
+     CLOCK: [2016-11-27 Sun 00:32]--[2016-11-27 Sun 00:33] =>  0:01
+     :END:
+     [2016-11-27 Sun 00:32]
+**** Git on remote servers
+     #+BEGIN_SRC shell
+       git remote                                                          # manage set of tracked repositories
+       git remote add alexaway https://github.com/alexaway/visual.git      # add a remote repo
+       git push -u alexaway master                                         # push the master branch to the remote repository
+       git branch -r                                                       # show the remote branch
+       git clone https://github.com/alexaway/visual.git       
+     #+END_SRC
+ 
+     :LOGBOOK:
+     CLOCK: [2016-11-27 Sun 16:39]--[2016-11-27 Sun 17:48] =>  1:09
+     :END:
+     [2016-11-27 Sun 16:39]
+**** Git & Github 
+     #+BEGIN_SRC shell
+       git push alexaway non_tracking                                # 注意这个命令将non_tracking push到alexaway这个远程git上，但是之后fetch的时候不会建立引用
+       git branch -u non_tracking alexaway/non_tracking              # 关联本地non_tracking分支与远程的alexaway/non_tracking分支 -u = --set-upstream
+       git push                                                      # 和第一个类似，但是同时创建引用
+       git fetch                                                     # 从remte repo 同步，如果有多个remote repo，需要指定；只是同步了remote branch，本地的branch不受影响
+       git merge origin/master                                       # 接着上一个命令，讲本地branch与之前的从远程同步的branch merge
+       git pull                                                      # = fetch + merge 
+       git push origin --delete non_tracking                         # 删除远程的non_tracking branch
+       git branch -a/-r                                              # -a：显示所有分支  -r：显示远程分支
+     #+END_SRC
+***** fetch before you work
+***** fetch before you push
+***** fetch often
+***** 省去登录过程：使用SSH方式登录，设置公钥私钥
+      :LOGBOOK:
+      CLOCK: [2016-11-27 Sun 18:54]--[2016-11-27 Sun 21:01] =>  2:07
+      :END:
+      [2016-11-27 Sun 18:54]
+**** SSH keys 
+     #+BEGIN_SRC shell
+       ssh-keygen -t rsa -b 8112 -C "The birthday of my love"                  
+       cat ~/.ssh/id_rsa.pub                                                   # get the public key 
+       ssh-add ~/.ssh/id_rsa                                                   # add the key to the computer
+     #+END_SRC
+     :LOGBOOK:
+     CLOCK: [2016-11-27 Sun 21:09]--[2016-11-27 Sun 21:19] =>  0:10
+     :END:
+     [2016-11-27 Sun 21:09]
+*** 2016-11-28 Monday
+**** >/dev/null 2>&1   
+***** > is for redirect
+***** /dev/null is a black hole where any data sent will be discarded
+***** 2 is the file descriptor for standard Error
+***** & is the symbol for file descriptor(without it, the following 1 would be considered a filename)
+***** 1 is the file descriptor for standard Out
+***** Therefore >/dev/null 2>&1 is redirect output of your program to /dev/null, include both the standard Error and standard Out
+
+      :LOGBOOK:
+      CLOCK: [2016-11-28 Mon 10:35]--[2016-11-28 Mon 10:45] =>  0:10
+      :END:
+      [2016-11-28 Mon 10:35]
+**** linux 文件描述符 
+***** linux 启动后，会默认打开三个文件描述符，分别是：标准输入standard input 0，正确输出standard output 1,错误输出error output 2
+     
+      :LOGBOOK:
+      CLOCK: [2016-11-28 Mon 11:05]--[2016-11-28 Mon 11:10] =>  0:05
+      :END:
+      [2016-11-28 Mon 11:05]
+**** linux 数据重定向 
+***** 1> 标准输出，默认选项,1可以省略
+***** 2> 错误输出
+***** >> 追加
+***** &[n] 代表已经存在的文件描述符，&1代表输入，&2代表输出 &-代表关闭与它绑定的描述符，2>&- 关闭错误输出信息
+***** <  输入重定向 e.g. cat>catfile <<eof 注意<<eof 意思是当输入到指定的eof字符串时，停止并退出
+***** exec 该命令执行之后，接下来的所有命令都支持， e.g. exec 6>&1 
+**** 电影《大决战》
+
+     :LOGBOOK:
+     CLOCK: [2016-11-28 Mon 11:37]--[2016-11-28 Mon 12:06] =>  0:29
+     :END:
+     [2016-11-28 Mon 11:37]
+**** linux command  
+***** 管道命令操作符："|" 它仅能处理经由前面一个指令传出的正确输出信息，传递给下一个命令，作为标准输出
+***** xargs 将参数列表转换成小块分段传递给其他命令，以避免参数列表过长的问题。-0指的是把特殊字符作为普通字符看待
+***** -n $(var) ：如果不为空返回真 -z $(var) ：如果为空返回真
+
+      :LOGBOOK:
+      CLOCK: [2016-11-28 Mon 16:33]--[2016-11-28 Mon 16:34] =>  0:01
+      CLOCK: [2016-11-28 Mon 16:25]--[2016-11-28 Mon 16:26] =>  0:01
+      CLOCK: [2016-11-28 Mon 14:42]--[2016-11-28 Mon 14:45] =>  0:03
+      :END:
+      [2016-11-28 Mon 12:06]
+**** linux：at 
+***** at 处理那些只执行一次就结束的程序
+**** Linux: crontab
+***** crontab 循环性工作
+***** 限制使用该服务
+****** /etc/cron.allow
+****** /etc/cron.deny
+***** 当使用crontab 简历了工作安排之后， 工作记录会被记录到/var/spool/cron 里，而且以账号作为判别
+****** -e：编辑crontab 的任务
+****** -l：查阅
+****** -r：移除所有crontab 任务，如若想移除一个任务，用-e来编辑
+***** 具体参数  * * * * * command
+      | meaning | minute | hour | date | month | week | command   |
+      |---------+--------+------+------+-------+------+-----------|
+      | range   |   0-59 | 0-23 | 1-31 |  1-12 |  0-7 | that's it | 
+***** 特殊字符  
+****** * ：任何时刻都接受
+****** , ：分割时段 0 3,6 * * * command ：在3:00 和6:00 执行command命令
+****** - ：一段时间范围 20 8-12 * * * command： 8:00 到12:00 每二十分钟执行一次
+****** /n：每隔n单位时间 */5 * * * * command： 每隔五分钟执行一次
+****** 这是一个测试
+***** [[http://linux.vbird.org/linux_basic/0430cron.php#crontab][for details]] 
+
+      :LOGBOOK:
+      CLOCK: [2016-11-28 Mon 19:11]--[2016-11-28 Mon 19:48] =>  0:37
+      CLOCK: [2016-11-28 Mon 18:36]--[2016-11-28 Mon 19:09] =>  0:33
+      :END:
+      [2016-11-28 Mon 18:36]
+*** 2016-11-29 Tuesday
+****  Finally,I am back
+     :LOGBOOK:
+     :END:
+     [2016-11-29 Tue 20:20]
+*** 2016-11-30 Wednesday
+**** 要开始学习了哦 
+     [2016-11-30 Wed 10:04]
+**** *这是加粗* /look this/ _下划线_ =这是什么=   
+     :LOGBOOK:
+     CLOCK: [2016-11-30 Wed 10:08]--[2016-11-30 Wed 10:11] =>  0:03
+     :END:
+     [2016-11-30 Wed 10:08]
+**** 一些数学概念 
+***** *梯度*  
+      标量场中某一点的梯度指向在这点标量场增长最快的方向（当然要比较的话必须固定方向的长度），梯度的绝对值是长度为1的方向中函数最大的增加率
+***** *散度*
+****** 它是一个标量函数(场)，也就是说，在定义空间中每一点的散度是一个值
+****** 用水流来解释，散度的物理意义可以叙述为:
+******* 如果一点的散度大于0，那么在这一点有一个水龙头不断往外冒水（称为源点）
+******* 如果一点的散度小于0，那么在这一点有一个下水道，总有一些水只进不出（称为汇点）
+******* 如果一点的散度等于0，那么请放心，在这个点周围的小区域里，单位时间进来多少水就出去多少水。
+****** 一个区域无论多复杂，只要不包含源点和汇点，其上散度的积分一定为0 
+***** *拉普拉斯算子* 
+****** 在数学以及物理中，拉普拉斯算子或是拉普拉斯算符（英语：Laplace operator, Laplacian）是由欧几里得空间中的一个函数的梯度的散度给出的微分算子，通常写成∇·∇， ∇^2或∆ 。
+****** 数学表达
+       [[file:diary.org_imgs/20161130_113134_26903-dI.png]]
+****** 拉普拉斯算子是最简单的各向同性微分算子，它具有旋转不变性。一个二维图像函数的拉普拉斯变换是各向同性的二阶导数，定义为:
+       [[file:diary.org_imgs/20161130_154510_16390L7F.png]]
+****** 为了更适合数字图像处理该方程表示为离散形式为：
+       [[file:diary.org_imgs/20161130_155308_16390YFM.png]]
+****** 另外，拉普拉斯算子还可以表示成模板的形式，以方便编程 
+       [[file:diary.org_imgs/20161130_155627_16390lPS.png]]
+****** 拉普拉斯算子的作用主要是检测边缘与边缘提取 
+****** _三维空间中的拉普拉斯算子用来提取骨架？_
+***** *流形* 
+      流形，是局部具有欧几里得空间性质的空间，是欧几里得空间中的曲线、曲面等概念的推广.流形要求局部“看起来像”简单的空间，这不是一个简单的要求。例如，在球上吊一根线，这个整体就不是一个流形。包含了线和球连接的那
+      一点的附近区域一定不是简单的:既不是线也不是面，无论这个区域有多小。 
+      :LOGBOOK:
+      CLOCK: [2016-11-30 Wed 15:50]--[2016-11-30 Wed 16:26] =>  0:36
+      CLOCK: [2016-11-30 Wed 15:48]--[2016-11-30 Wed 15:49] =>  0:01
+      CLOCK: [2016-11-30 Wed 11:00]--[2016-11-30 Wed 11:13] =>  0:13
+      CLOCK: [2016-11-30 Wed 10:27]--[2016-11-30 Wed 10:56] =>  0:29
+      :END:
+      [2016-11-30 Wed 10:27]
+**** KinectFusion: Real-time 3D Reconstruction and Interaction Using a Moving Depth Camera 
+***** Features 
+****** Low-cost Handheld Scanning
+       实时
+****** Object Segmentation through Direct Interaction
+       比如重建桌子上的一个物体，可以先重建整个场景，然后把该物体拿走，通过两个场景的差别进行分割
+****** Geometry-Aware Augmented Reality
+****** Taking Physics Beyond the ‘Surface’
+       现实增强，可以与现实场景进行交互
+****** Reaching into the Scene
+       可以区分前景（用户）与后景，在这个基础上，人还可以和后景进行交互
+***** Overview 
+      [[file:diary.org_imgs/20161130_210420_6054z8b.png]]
+***** Implementation 
+****** Depth Map Conversion 
+       The live depth map is converted from image coordinates into 3D points (referred to as vertices) and normals in the coordinate space of the camera.
+****** Camera Tracking 
+       In the tracking phase, a rigid 6DOF transform is computed to closely align the current oriented points with the previous frame, using a GPU implementation of the Iterative Closest Point (ICP)
+       algorithm. Relative transforms are incrementally applied to a single transform that defines the global pose of the Kinect.
+****** Volumetric Integration 
+       Instead of fusing point clouds or creating a mesh, we use a volumetric surface representation. Given the global pose of the camera, oriented points are converted into global coordinates,
+       and a single 3D voxel grid is updated. Each voxel stores a running average of its distance to the assumed position of a physical surface.
+****** Raycasting
+       Finally, the volume is raycast to extract views of the implicit surface, for rendering to the user. 
+
+       :LOGBOOK:
+       CLOCK: [2016-11-30 Wed 19:40]--[2016-11-30 Wed 20:58] =>  1:18
+       CLOCK: [2016-11-30 Wed 17:20]--[2016-11-30 Wed 17:33] =>  0:13
+       :END:
+       [2016-11-30 Wed 17:20]
+** 2016-12 December
+*** 2016-12-01 Thursday
+**** Discrete Combinatorial Laplacian Operators for Digital Geometry Processing
+***** Taubin points out that the eigenvectors of the TL represent the natural vibration modes of the mesh, while the corresponding eigenvalues capture its natural frequencies
+***** Tutte Laplacian(TL), Kirchhoff operator (KL), normalized graph Laplacian (GL)  have been applied to digital geometry processing, e.g. for mesh compression, mesh smoothing, mesh parameterization,spectral mesh watermarking
+***** 
+
+      :LOGBOOK:
+      CLOCK: [2016-12-01 Thu 17:15]--[2016-12-01 Thu 17:25] =>  0:10
+      :END:
+      [2016-12-01 Thu 16:47]
+**** 在 ubuntu 上创建 usb 启动盘  
+     搜索 startup disk creator
+     :LOGBOOK:
+     CLOCK: [2016-12-01 Thu 18:05]--[2016-12-01 Thu 18:06] =>  0:01
+     :END:
+   [2016-12-01 Thu 18:05]
+*** 2016-12-02 Friday
+**** [[https://youtu.be/hydo5gJP22o][Johann Pachelbel Canon Piano(George Winston)]] 
+     :LOGBOOK:
+     CLOCK: [2016-12-02 Fri 11:41]--[2016-12-02 Fri 11:43] =>  0:02
+     :END:
+   [2016-12-02 Fri 11:41]
+*** 2016-12-03 Saturday
+**** 别担心，稳妥 
+   [2016-12-03 Sat 15:18]
+**** 去他妈的,什么事老子搞不定！ 
+   [2016-12-03 Sat 18:35]
+**** Shell 的变量功能 
+***** 变量的配置规则 
+****** 变量与变量内容以一个等号『=』来连结 
+****** 等号两边不能直接接空格符
+****** 变量内容若有空格符可使用双引号『"』或单引号『'』将变量内容结合起来，但
+******* 双引号内的特殊字符如 $ 等，可以保有原本的特性 
+******* 单引号内的特殊字符则仅为一般字符 (纯文本)
+****** 可用跳脱字符『 \ 』将特殊符号(如 [Enter], $, \, 空格符, '等)变成一般字符 
+****** 在一串命令中，还需要藉由其他的命令提供的信息，可以使用反单引号『`命令`』或 『$(命令)』。特别注意，那个 ` 是键盘上方的数字键 1 左边那个按键，而不是单引号！
+****** 若该变量为扩增变量内容时，则可用 "$变量名称" 或 ${变量} 累加内容，如下所示：『PATH="$PATH":/home/bin』
+****** 若该变量需要在其他子程序运行，则需要以 export 来使变量变成环境变量：『export PATH』
+****** 取消变量的方法为使用 unset ：『unset 变量名称』例如取消 myname 的配置:『unset myname』
+***** 用 env 观察环境变量与常见环境变量说明 
+***** 用 set 观察所有变量 (含环境变量与自定义变量)
+***** $: 钱字号本身也是个变量喔！这个咚咚代表的是『目前这个 Shell 的线程代号』，亦即是所谓的 PID (Process ID)。$$: shell的PID
+***** ?: 关于上个运行命令的回传值。
+***** export: 自定义变量转成环境变量
+***** locale: 影响显示结果的语系变量,如果其他的语系变量都未配置， 且你有配置 LANG 或者是 LC_ALL 时，则其他的语系变量就会被这两个变量所取代！  
+***** read [-pt] variable
+****** -p  ：后面可以接提示字符！
+****** -t  ：后面可以接等待的『秒数！』这个比较有趣～不会一直等待使用者啦！
+***** declare [-aixr] variable : 宣告变量的类型 
+****** -a  ：将后面名为 variable 的变量定义成为数组 (array) 类型 
+****** -i  ：将后面名为 variable 的变量定义成为整数数字 (integer) 类型
+****** -x  ：用法与 export 一样，就是将后面的 variable 变成环境变量；
+****** -r  ：将变量配置成为 readonly 类型，该变量不可被更改内容，也不能 unset
+****** declare +x sum  <== 将 - 变成 + 可以进行『取消』动作
+***** 数组（array）变量类型 
+****** var[index]=content 
+****** 一般来说，建议直接以 ${数组} 的方式来读取，比较正确无误的啦！
+*****  ulimit [-SHacdfltu] [配额] 
+****** -H  ：hard limit ，严格的配置，必定不能超过这个配置的数值； 
+****** -S  ：soft limit ，警告的配置，可以超过这个配置值，但是若超过则有警告信息。
+****** -a  ：后面不接任何选项与参数，可列出所有的限制额度；
+****** -c  ：当某些程序发生错误时，系统可能会将该程序在内存中的信息写成文件(除错用)，这种文件就被称为核心文件(core file)。此为限制每个核心文件的最大容量。
+****** -f  ：此 shell 可以创建的最大文件容量(一般可能配置为 2GB)单位为 Kbytes
+****** -d  ：程序可使用的最大断裂内存(segment)容量；
+****** -l  ：可用于锁定 (lock) 的内存量
+****** -t  ：可使用的最大 CPU 时间 (单位为秒)
+****** -u  ：单一用户可以使用的最大程序(process)数量。
+***** 变量内容的删除、取代与替换  
+****** ${变量#关键词}:  若变量内容从头开始的数据符合『关键词』，则将符合的最短数据删除  
+****** ${变量##关键词}: 若变量内容从头开始的数据符合『关键词』，则将符合的最长数据删除
+****** ${变量%关键词}:  若变量内容从尾向前的数据符合『关键词』，则将符合的最短数据删除
+****** ${变量%%关键词}: 若变量内容从尾向前的数据符合『关键词』，则将符合的最长数据删除
+****** ${变量/旧字符串/新字符串}:  若变量内容符合『旧字符串』则『第一个旧字符串会被新字符串取代』
+****** ${变量//旧字符串/新字符串}: 若变量内容符合『旧字符串』则『全部的旧字符串会被新字符串取代』
+***** 变量的测试与内容替换 
+      [[file:diary.org_imgs/20161204_205831_1021614t.png]]
+****** 加上冒号后，被测试的变量未被配置或者是已被配置为空字符串时， 都能够用后面的内容来替换与配置！ 
+****** 减号的测试并不会影响到旧变量的内容。 如果你想要将旧变量内容也一起替换掉的话，那么就使用等号 (=) 吧！
+****** 那如果我只是想知道，如果旧变量不存在时，整个测试就告知我『有错误』，此时就能够使用问号『 ? 』的帮忙啦！
+
+
+
+     :LOGBOOK:
+     CLOCK: [2016-12-04 Sun 19:09]--[2016-12-04 Sun 20:21] =>  1:12
+     CLOCK: [2016-12-03 Sat 23:40]--[2016-12-03 Sat 23:55] =>  0:15
+     CLOCK: [2016-12-03 Sat 18:36]--[2016-12-03 Sat 19:10] =>  0:34
+     :END:
+   [2016-12-03 Sat 18:36]
+*** 2016-12-04 Sunday
+**** 我把git学完了,我正在学shell,我会减肥,我会练出腹肌 
+     :LOGBOOK:
+     CLOCK: [2016-12-04 Sun 20:32]--[2016-12-04 Sun 20:33] =>  0:01
+     :END:
+   [2016-12-04 Sun 20:32]
+**** 日了狗,干他妈的，上 
+   [2016-12-04 Sun 20:38]
+*** 2016-12-05 Monday
+**** ElasticFusion: Dense SLAM Without A Pose Graph
+***** Robotics: Science and Systems (RSS), Rome, Italy, July 2015. 
+***** SLAM: Simultaneous localization and mapping 同步定位与地图构建
+****** 是一种概念：希望机器人从未知环境的未知地点出发，在运动过程中通过重复观测到的地图特征（比如，墙角，柱子等）定位自身位置和姿态，再根据自身位置增量式的构建地图，从而达到同时定位和地图构建的目的。   
+   
+
+   :LOGBOOK:
+       CLOCK: [2016-12-06 Tue 09:37]--[2016-12-06 Tue 09:49] =>  0:12
+   :END:
+       
+   [2016-12-05 Mon 09:09]
+**** Block Assembly for Global Registration of Building Scans 
+***** 最优化问题
+****** 数学表达
+       [[file:diary.org_imgs/20161205_102111_15226Rsz.png]]
+****** 分支
+******* 线性规划（Linear Programming，简称LP）特指目标函数和约束条件皆为线性的最优化问题。 
+******* 要求所有的未知量都为整数的线性规划问题叫做整数规划（integer programming, IP）或整数线性规划（integer linear programming, ILP）问题。相对于即使在最坏情况下也能有效率地解出的线性规划问题，整数规划问题的最坏情况是不确定的，在某些实际情况中（有约束变量的那些）为NP困难问题。
+***** SIGGRAPH ASIA 2016   
+***** Contribution
+****** the =first= global registration framework that can handle scans of isolated rooms and scans that capture both the exteriors and interiors of buildings based on portals extracted from scans
+****** present a novel formulation of global registration based on constrained combinatorial optimization and an efficient solution by iteratively adding constraints.
+****** demonstrate reliable registration results for building scans in cases where existing state-of-the-art methods fail.
+***** Challenge for registration of building scans 
+****** scans obtained by a static scanner are spatially far apart. registration of these scans becomes a global matching problem
+****** buildings mainly consist of piecewise planar regions, which means that fewer unique features can be extracted for registration.(缺少约束信息，比如墙面等)
+****** sufficient overlaps required for registration cannot always be guaranteed during scanning. 
+******* 对于建筑内部或外部可以通过创建重叠部分来支持匹配，但是对于将内部扫描匹配到外部的情况，无法满足 
+****** one option to simplify the registration problem is to exploit high-precision positioning techniques
+******* GPS position error larger than 3.5m [GPS.gov 2015]
+******* the sensor range of Microsoft Kinect is [0.6m, 4m]
+******* WiFi position system (1m-5m)
+******* In engineering scenarios, markers are usually required and are carefully placed in the scene before scanning, and manual work is required to obtain the registration.
+***** Related Works 
+****** Acquisition planning (采购计划？)
+******* aims at strategically positioning the scanner to achieve improved coverage of a physical object.
+******* 本文默认的输入是multiple scan
+****** Pairwise registration 
+******* Given two scans, pairwise registration computes a rigid or non-rigid transformation between the two input scans. 
+******* ICP and its variants, 要求两个扫描数据之间要有大量的重复
+******* 基于 pairwise registration, KinectFusion 及其变种提供了将深度信息融合到单个模型，缺点是只能处理小型场景
+****** Global registration
+******* 通常是在 pairwise registration（pr） 的基础上, 最小化pr的累计误差 
+****** Block assembly
+******* computational assembly of interlocking burr puzzles => NP hard 
+***** Overview
+****** Given a set of separately scanned point clouds representing a building, our goal is to register them into a consistent global coordinate frame. 
+****** Preprocessing.
+       在预处理阶段, 通过检测每个scan的最大连通分量作为一个block，这些blocks是本文算法的输入，当然本文的输入不只是这种形式
+****** Portal Detection
+       能够通过启发式算法自动识别墙以及门，允许用户手动添加删除
+****** Graph construction
+       portal以及blocks通过图来编码，其中边表示潜在的成对的对齐关系,对边赋权重代表两个portal或blocks的匹配程度
+****** Block assembly
+       本文通过解决一个组合优化问题来实现全局一致性配准，本文提出了一个现行整数优化的方法.
+****** Acceleration algorithm
+       本文通过逐步把约束加入到计算当中的策略来实现加速
+***** Methodology 
+****** Input and preprocessing 
+******* 输入有固定激光扫描仪（range 100m）手持扫描仪(3m) kinect(1.5m), 扫描建筑外形用固定激光扫描仪，其他三者混合使用. 使用KinectFusion 扫描较小的房间 
+        [[file:diary.org_imgs/20161207_111339_7071LOn.png]]
+******* 只选取电云中的主要部分（称为block）, 把距离在阈值（20cm）之内的点用边连起来，用最大连通分量代表整个block, 所有的blocks作为本文的输入
+****** Portal detection 
+       [[file:diary.org_imgs/20161207_113533_11569xBo.png]]
+******* 首先从block中提取wall, 第一步通过RANSAC 方法提取平面, 其中非常大的平面被标为墙面, 然后通过扫描仪提供的垂直方向（或者由用户指定）来标注地面
+******* 然后我们要提取portal的边界用来后面的拼接过程，考虑到portal是在墙上的一个2D图形, 本文的方法是把点都投影到墙面的支持平面上, 然后使用图像处理中的扩张和腐蚀方法,最后比较两个图像来确定是否匹配（阈值10px）
+******* 对于一些无法处理的情况, 本文允许用户指定匹配的两个portal
+******* 本文并不要求所有的portal都能够匹配，本文的算法有一定的容错能力
+****** Graph construction
+******* 一旦提到到了portal, 我们要建立一个连通图连接可能的匹配的portal, 其中每个顶点代表一个blocks上的一个portal, 同时我们把每一个block也编码成图中的一个节点,两个block节点只有在有足够多的匹配点的情况下才会连一条边，注意的是两个scan pairs 必须不能相互穿透
+******* 建立好连接图之后, 我们对两个blocks之间的一条边赋予一个matching score（用距离来度量）以及一个变换（相对位置以及方向）
+******* Matching
+******** Pairwise portal matching
+         首先我们用PCA(Principal Component Analysis）对两个portal进行粗略的匹配, 然后我们把两个portal用两个GMM 来表示，根据[Jian and Vemuri 2011]的方法寻找两个GMM 的对齐关系, 定义的 L_2 表示两个GMM 之间的距离度量, 从上面的一致性，我们可以定义两个block之间的刚性变换（旋转和平移）, 由于两个block之间的支持平面（如墙壁）都是平行的关系，所以刚性变换也要满足这个约束，具体的可以计算以下这个优化问题来解决：
+         [[file:diary.org_imgs/20161207_163741_19583vYy.png]]
+         其中 Q={q_i}以及Q^1={q_i^1}分别表示对应的两组3D点集, n以及n^1 表示对应支持平面的法向量, R,t代表要计算的旋转和平移的关系, t_wall 表示由用户指定的墙体的厚度,这是一个有线性约束的二次规划问题,本文用[Bochkanov 2015]的方法计算的
+******** Pairwise block matching
+         本文首先使用了 Harris key point detector [Harris and Stephens 1988] 的一个变种计算了点集中的关键点,这一步大大减少了点的数目,然后计算了每个关键点的Point Feature Histogram [Rusu and Cousins 2011],然后使用了一个基于RANSAC 的对齐操作,然后是通过ICP进行refinement. 本文使用[Horn 1987]的方法计算两个block之间的变换  
+******* 最后把两种类型的聚类都标准化到[0,1], 我们把每条边的权重 s_i=1-d_i 其中d_i 表示之前标准化的距离  
+***** Block assembly
+      Block assembly算法就是在上述图中选取一些边, 让这些边的分数总和最高, 而且保持仍然为连通图, 每一个block都可以计算出唯一的一个到其他任意一个block的变换.
+      定义 B = {b_1,..., b_m} 为M个输入的block
+      定义 X = {x_1,..., x_n} 为N个匹配的成对的portal或成对的block的二元集合
+****** Matching confidence 
+       该项定义了平均matching score, 这一项鼓励block的对齐结果更加紧凑
+       [[file:diary.org_imgs/20161207_191810_19583hiB.png]]
+       其中s_i 表示第i条边的Matching score, x_i 表示第i条边是（1）否（0）选中
+****** Connectivity
+       为了能使更多的block能够匹配, 这里鼓励有更多的边
+       [[file:diary.org_imgs/20161207_192506_19583usH.png]]
+      为了保证全局一致性, 本文添加了两个具有排他性的限制：其一是一个portal不能与多个portal对齐, 其二是一个block不能穿过另一个block的空间,如下图所示
+      [[file:diary.org_imgs/20161207_200905_19583IBU.png]]
+      总的约束就是：
+      [[file:diary.org_imgs/20161207_201830_19583VLa.png]]
+      其中P表示所有的portal, i ∈ N(p_j) 表示与portal P_j 相连的邻居 portal, 空心P表示有conflict的对齐方案的集合
+***** Acceleration algorithm
+      如果要枚举所有情况, 将耗费大量时间,本文共做了两项优化,第一是检测冲突只是在很少数量的blocks之间, 第二是本文引入了‘conflict tolerance’作为一个软约束
+****** Constraint set
+       本文加速方法依赖于这样一个事实：静止局部冲突有利于全局配准的一致性
+****** Conflict tolerance
+       如果大量噪声或者有很多局外点的时候, 冲突检测就会出错. 在冲突检测中会出现两种错误：一种是本来冲突的一些alignment被判定为不冲突的, 本文认为这种情况问题不大, 因为这种情况置信度一般不高. 在全局优化的过程中, 这种问题会被优化掉. 第二种是本来是好的alignment被判定为冲突的, 为了解决这类问题, 本文提出了一个tolerance的数据项：
+       [[file:diary.org_imgs/20161207_213011_3720paw.png]]
+       其中v_i 表示当由第i条边连接的两个block冲突的区域的体积, vol（b_j）表示b_j 的体积
+      所以最终的式子是：
+      [[file:diary.org_imgs/20161207_214449_37202k2.png]]
+
+
+
+
+
+
+
+
+
+
+
+***** 一些概念 
+****** 高斯混合模型——GMM（Gaussian Mixture Model） 
+        所谓混合高斯模型（GMM）就是指对样本的概率密度分布进行估计，而估计采用的模型（训练模型）是几个高斯模型的加权和（具体是几个要在模型训练前建立好）。每个高斯模型就代表了一个类（一个Cluster）。对样本中的数据分别在几个高斯模型上投影，就会分别得到在各个类上的概率。然后我们可以选取概率最大的类所为判决结果。
+        混合高斯模型的定义为：
+        [[file:diary.org_imgs/20161207_154432_13480O8w.png]]
+        其中K 为模型的个数；π_k 为第k个高斯的权重；p（x / k） 则为第k个高斯概率密度，其均值为μ_k，方差为σ_k。对此概率密度的估计就是要求出π_k、μ_k 和σ_k 各个变量。当求出p（x ）的表达式后，求和式的各项的结果就分别代表样本x 属于各个类的概率。
+
+ 
+   :LOGBOOK:
+   CLOCK: [2016-12-07 Wed 20:01]--[2016-12-07 Wed 21:06] =>  1:05
+   CLOCK: [2016-12-07 Wed 18:44]--[2016-12-07 Wed 19:25] =>  0:41
+   CLOCK: [2016-12-07 Wed 14:48]--[2016-12-07 Wed 16:11] =>  1:23
+   CLOCK: [2016-12-07 Wed 11:36]--[2016-12-07 Wed 12:03] =>  0:27
+   CLOCK: [2016-12-07 Wed 10:41]--[2016-12-07 Wed 11:33] =>  0:52
+   CLOCK: [2016-12-07 Wed 10:08]--[2016-12-07 Wed 10:31] =>  0:23
+   CLOCK: [2016-12-06 Tue 09:49]--[2016-12-06 Tue 11:47] =>  1:58
+   CLOCK: [2016-12-05 Mon 10:00]--[2016-12-05 Mon 10:08] =>  0:08
+   :END:
+   [2016-12-05 Mon 10:00]
+
+**** mount [-t vfstype] [-o options] device dir
+***** -t vfstype 指定文件系统的类型，通常不必指定。mount 会自动选择正确的类型。  
+***** -o options 主要用来描述设备或档案的挂接方式。常用的参数有： 
+****** loop：用来把一个文件当成硬盘分区挂接上系统 
+****** ro :采用只读方式挂接设备
+****** rw :采用读写方式挂接设备
+****** iocharset :指定访问文件系统所用字符集
+
+     :LOGBOOK:
+     CLOCK: [2016-12-05 Mon 11:41]--[2016-12-05 Mon 11:46] =>  0:05
+     :END:
+   [2016-12-05 Mon 11:41]
+*** 2016-12-06 Tuesday
+**** 在多个文件中查找 
+     #+BEGIN_SRC shell
+       find . | xargs grep -ir "str"
+     #+END_SRC
+     :LOGBOOK:
+     CLOCK: [2016-12-06 Tue 16:50]--[2016-12-06 Tue 16:52] =>  0:02
+     :END:
+   [2016-12-06 Tue 16:50]
+*** 2016-12-07 Wednesday
+**** 为什么要生女儿？因为这样就可以看到你小时候的样子 
+   [2016-12-07 Wed 11:34]
+**** 解决Org-mode不能显示上下标的方法： C-c C-x \ 或者更改 org-pretty-entities变量为t
+     :LOGBOOK:
+     CLOCK: [2016-12-07 Wed 16:12]--[2016-12-07 Wed 16:13] =>  0:01
+     :END:
+   [2016-12-07 Wed 16:12]
+*** 2016-12-09 Friday
+**** gitlab repo 默认位置 
+     /var/opt/gitlab/git-data
+     :LOGBOOK:
+     CLOCK: [2016-12-09 Fri 16:04]--[2016-12-09 Fri 16:05] =>  0:01
+     :END:
+   [2016-12-09 Fri 16:04]
+**** 三角形重心坐标 
+     已知三角形的三个顶点的坐标,重心坐标是三个顶点的平均值
+     :LOGBOOK:
+     CLOCK: [2016-12-09 Fri 18:02]--[2016-12-09 Fri 18:03] =>  0:01
+     :END:
+   [2016-12-09 Fri 18:02]
+*** 2016-12-15 Thursday
+**** Matlab 笔记 
+****** [c d]=components(A) 
+       计算图A的连通分量, 其中A必须为稀疏矩阵, c返回每个顶点属于哪一个分量, d返回每个连通分量的大小
+
+     :LOGBOOK:
+     CLOCK: [2016-12-15 Thu 16:08]--[2016-12-15 Thu 16:10] =>  0:02
+     :END:
+   [2016-12-15 Thu 16:08]
+*** 2016-12-19 Monday
+**** 一个计算两个平面交线的算法 
+     [[file:files/intersection.doc][Intersection between two planes]]
+     :LOGBOOK:
+     CLOCK: [2016-12-19 Mon 21:31]--[2016-12-19 Mon 21:33] =>  0:02
+     :END:
+   [2016-12-19 Mon 21:31]
+*** 2016-12-20 Tuesday
+**** 一个关于off文件参数设置的html文档 [[file:files/Appearances%20-%20Geomview%20Manual.html][戳这里]] 
+     :LOGBOOK:
+     CLOCK: [2016-12-20 Tue 17:36]--[2016-12-20 Tue 17:37] =>  0:01
+     :END:
+   [2016-12-20 Tue 17:36]
+*** 2016-12-30 星期五
+**** 《星星之火可以燎原》节选 
+     但我所说的中国革命高潮快要到来，决不是如有些人所谓“有到来之可能”那样完全没有行动意义的、可望而不可即的一种空的东西。它是站在海岸遥望海中已经看得见桅杆尖头了的一只航船，它是立于高山之巅远看东方已见光芒四射喷薄欲出的一轮朝日，它是躁动于母腹中的快要成熟了的一个婴儿。
+     :LOGBOOK:
+     CLOCK: [2016-12-30 五 00:17]--[2016-12-30 五 00:18] =>  0:01
+     :END:
+   [2016-12-30 五 00:17]
