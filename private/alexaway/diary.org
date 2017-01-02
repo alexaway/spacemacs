@@ -657,10 +657,15 @@
 *** 2017-01-02 星期一
 **** 关于服务器 
 ***** 添加用户
-      #+BEGIN_SRC sh
-      
+      #+BEGIN_SRC shell
+        useradd -m alexaway  # -m 表示添加用户目录
+        sudo passwd alexaway # 初始用户是没有密码的，必须为之分配密码，否则无法登录
       #+END_SRC
-
+***** 关于远程硬盘
+      #+BEGIN_SRC shell
+        sudo apt-get install sshfs
+        sshfs sshfs -o allow_other,reconnect,ServerAliveInterval=15,ServerAliveCountMax=3 用户名@192.168.1.103:/data/ddata /mnt/dir
+      #+END_SRC
 
 
      :LOGBOOK:
