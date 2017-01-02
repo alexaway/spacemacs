@@ -45,12 +45,12 @@
 * DONE 买票
   DEADLINE: <2016-12-18 Sun>
 [2016-12-15 Thu 17:45]
-* TODO wechat with Mr sun 
+* DONE wechat with Mr sun
   DEADLINE: <2016-12-24 六 13:00>
   :LOGBOOK:
   CLOCK: [2016-12-22 四 18:08]--[2016-12-22 四 18:09] =>  0:01
   :END:
 [2016-12-22 四 18:08]
-* TODO 去大舅妈家吃饭 
+* DONE 去大舅妈家吃饭
   DEADLINE: <2017-01-01 10:00>
 [2016-12-29 四 23:51]
