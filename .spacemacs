@@ -22,7 +22,6 @@ values."
      octave
      markdown
      html
-     html
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -229,7 +228,7 @@ values."
    dotspacemacs-highlight-delimiters 'all
    ;; If non nil advises quit functions to keep server open when quitting.
    ;; (default nil)
-   dotspacemacs-persistent-server nil
+   dotspacemacs-persistent-server t
    ;; List of search tool executable names. Spacemacs uses the first installed
    ;; tool of the list. Supported tools are `ag', `pt', `ack' and `grep'.
    ;; (default '("ag" "pt" "ack" "grep"))
@@ -256,6 +255,13 @@ before packages are loaded. If you are unsure, you should try in setting them in
 
   (set-variable 'ycmd-server-command '("python" "/home/alexaway/.ycmd/ycmd/"))
   ;(add-hook 'c++-mode-hook (lambda () (setq flycheck-gcc-language-standard "c++11")))
+  
+   (setq-default
+   configuration-layer--elpa-archives
+   '(("melpa-cn" . "http://elpa.emacs-china.org/melpa/")
+     ("gnu-cn" . "http://elpa.emacs-china.org/gnu/")
+     ("org-cn" . "http://elpa.emacs-china.org/org/")))
+
 )
 
 (defun dotspacemacs/user-config ()
@@ -279,7 +285,7 @@ you should place your code here."
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (company-auctex rvm ruby-tools ruby-test-mode rubocop rspec-mode robe rbenv rake minitest helm-company helm-c-yasnippet company-web web-completion-data company-statistics company-c-headers company chruby bundler inf-ruby auto-yasnippet yasnippet auctex ac-ispell auto-complete ws-butler window-numbering which-key web-mode volatile-highlights vi-tilde-fringe uuidgen use-package toc-org tagedit spacemacs-theme spaceline slim-mode scss-mode sass-mode restart-emacs request rainbow-delimiters quelpa pug-mode popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text mmm-mode markdown-toc macrostep lorem-ipsum linum-relative link-hint less-css-mode info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-gtags helm-flx helm-descbinds helm-css-scss helm-ag google-translate golden-ratio gh-md ggtags flyspell-correct-helm flycheck-pos-tip flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu emmet-mode elisp-slime-nav dumb-jump disaster define-word column-enforce-mode cmake-mode clean-aindent-mode clang-format cal-china-x auto-highlight-symbol auto-dictionary auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line))))
+    (powerline spinner markdown-mode hydra parent-mode projectile haml-mode flyspell-correct pos-tip flycheck pkg-info epl flx smartparens iedit anzu evil goto-chg undo-tree highlight f s diminish bind-map bind-key packed dash helm avy helm-core async popup package-build company-auctex rvm ruby-tools ruby-test-mode rubocop rspec-mode robe rbenv rake minitest helm-company helm-c-yasnippet company-web web-completion-data company-statistics company-c-headers company chruby bundler inf-ruby auto-yasnippet yasnippet auctex ac-ispell auto-complete ws-butler window-numbering which-key web-mode volatile-highlights vi-tilde-fringe uuidgen use-package toc-org tagedit spacemacs-theme spaceline slim-mode scss-mode sass-mode restart-emacs request rainbow-delimiters quelpa pug-mode popwin persp-mode pcre2el paradox org-plus-contrib org-bullets open-junk-file neotree move-text mmm-mode markdown-toc macrostep lorem-ipsum linum-relative link-hint less-css-mode info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers highlight-indentation hide-comnt help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make helm-gtags helm-flx helm-descbinds helm-css-scss helm-ag google-translate golden-ratio gh-md ggtags flyspell-correct-helm flycheck-pos-tip flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu emmet-mode elisp-slime-nav dumb-jump disaster define-word column-enforce-mode cmake-mode clean-aindent-mode clang-format cal-china-x auto-highlight-symbol auto-dictionary auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
