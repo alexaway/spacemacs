@@ -1,7 +1,7 @@
 #!/bin/sh
 
 <<<<<<< HEAD
-apt-get install unity-tweak-tool conky-all git clang build-essential cmake python-dev
+apt-get install unity-tweak-tool conky-all git clang build-essential cmake python-dev global
 =======
 apt-get --assume-yes install unity-tweak-tool conky-all git clang build-essential cmake python-dev
 >>>>>>> def25a7eb3c5bb1e0befd8550e4cc3e44baa48de
