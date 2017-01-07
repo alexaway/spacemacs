@@ -36,7 +36,7 @@ values."
      ;c-c++
      ;ycmd
      gtags
-     ;; git
+     git
      ;; markdown
      ;; org
      ;; (shell :variables
