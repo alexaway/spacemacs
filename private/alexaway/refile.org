@@ -69,5 +69,8 @@
 [2017-01-06 Fri 17:06]
 [[file:~/Desktop/mesh_processing/topo_mesh/src/tri_mesh_plane.cc::remaining_tri->resize(count);]]
 * TODO 陈都生日礼物 
-  DEADLINE: <2017-01-07 六>
-[2017-01-07 六 08:59]
+  DEADLINE: <2017-01-07 Sat 22:00>
+  :LOGBOOK:
+  CLOCK: [2017-01-07 六 09:01]--[2017-01-07 六 09:02] =>  0:01
+  :END:
+[2017-01-07 六 09:01]
