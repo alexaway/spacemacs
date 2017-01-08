@@ -87,3 +87,10 @@
   :END:
 [2017-01-07 六 13:40]
 [[file:~/Desktop/mesh_processing/topo_mesh/src/tri_mesh_plane.cc::uint64_t%20remaining_fid%5B3%5D,%20fid%5B3%5D;]]
+* TODO 矩阵奇异值分解  
+  DEADLINE: <2017-01-08 Sun 22:00>
+  :LOGBOOK:
+  CLOCK: [2017-01-08 日 10:28]--[2017-01-08 日 10:29] =>  0:01
+  :END:
+[2017-01-08 日 10:28]
+[[file:~/Desktop/projection/main.cpp::p%5B0%5D%20=%20ret.at<double>(0,0);]]
