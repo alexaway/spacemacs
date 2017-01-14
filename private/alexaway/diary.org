@@ -687,3 +687,35 @@
      CLOCK: [2017-01-09 Mon 22:23]--[2017-01-09 Mon 22:24] =>  0:01
      :END:
    [2017-01-09 Mon 22:23]
+*** 2017-01-14 星期六
+**** linux 有趣的命令 
+***** cmatrix
+      #+BEGIN_SRC sh
+        sudo apt install cmatrix
+      #+END_SRC
+***** oneko
+      #+BEGIN_SRC sh 
+        sudo apt install oneko
+      #+END_SRC
+***** aafire
+      #+BEGIN_SRC sh
+        sudo apt install libaa-bin
+        aafire
+      #+END_SRC
+***** ASCIIquarium
+      #+BEGIN_SRC sh
+        sudo apt-get install libcurses-ocaml-dev
+        sudo cpanm Curses
+        sudo cpanm Term::Animation
+        wget http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz
+        tar -zxvf asciiquarium.tar.gz
+        cp asciiquarium /usr/local/bin
+        chmod 0755 /usr/local/bin/asciiquarium
+        asciiquarium
+      #+END_SRC
+***** bb
+      #+BEGIN_SRC sh
+        sudo apt install bb
+      #+END_SRC
+      
+   [2017-01-14 六 23:26]
