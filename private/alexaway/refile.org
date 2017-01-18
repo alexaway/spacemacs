@@ -94,4 +94,9 @@
   :END:
 [2017-01-08 日 10:28]
 [[file:~/Desktop/projection/main.cpp::p%5B0%5D%20=%20ret.at<double>(0,0);]]
-
+* TODO 给张老师写方案 
+  DEADLINE: <2017-01-27 五>
+  :LOGBOOK:
+  CLOCK: [2017-01-18 三 15:53]--[2017-01-18 三 15:54] =>  0:01
+  :END:
+[2017-01-18 三 15:53]
