@@ -664,7 +664,24 @@ vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k) {
   }
   return result;
 }
+/*279. Perfect Squares
+Given a positive integer n, find the least number of perfect square numbers (for example, 1, 4, 9, 16, ...) which sum to n.
 
+For example, given n = 12, return 3 because 12 = 4 + 4 + 4; given n = 13, return 2 because 13 = 4 + 9.
+*/
+int numSquares(int c)
+{
+	vector<int> dp(c+1, INT_MAX);
+	for(int i = 0; i*i <= c; ++i) {
+		dp[i*i] = 1;
+	}
+	for (int i = 1; i < dp.size(); ++i) {
+		for (int j = 1; i + j*j <= c; ++j) {
+			dp[i + j*j] = min(dp[i] + 1, dp[i + j*j]);
+		}
+	}
+	return dp[c];
+}
 int main()
 {
   vector<int> v;
