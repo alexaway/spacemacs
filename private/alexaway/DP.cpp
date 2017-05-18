@@ -682,6 +682,29 @@ int numSquares(int c)
 	}
 	return dp[c];
 }
+/*300. Longest Increasing Subsequence
+Given an unsorted array of integers, find the length of longest increasing subsequence.
+
+For example,
+Given [10, 9, 2, 5, 3, 7, 101, 18],
+The longest increasing subsequence is [2, 3, 7, 101], therefore the length is 4. Note that there may be more than one LIS combination, it is only necessary for you to return the length.*/
+int lengthOfLIS(vector<int>& nums) {
+        if(nums.size()==0)
+        return 0;
+        int N = nums.size();
+        vector<int> dp(N + 1, INT_MAX);
+        dp[0] *= -1;
+        int len = 0;
+        for(int i=0; i < N; ++i){
+            for(int j = 1; j <= i+1; ++j){
+                if(nums[i] > dp[j-1] && nums[i] < dp[j]){
+                    dp[j] = nums[i];
+                    if(j>len) len =j;
+                }
+            }
+        }
+        return len;
+}
 int main()
 {
   vector<int> v;
